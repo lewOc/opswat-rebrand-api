@@ -43,7 +43,7 @@ app = FastAPI(
     title="OPSWAT Rebrand API",
     version="0.1.0",
     description=(
-        "Reusable codebase redesign/rebrand service. V1 accepts a web codebase ZIP, "
+        "Reusable, app-agnostic codebase redesign/rebrand service. V1 accepts any web codebase ZIP, "
         "runs the deterministic OPSWAT Product UI rebrand pass, and returns a rebranded ZIP plus report."
     ),
 )
@@ -218,7 +218,7 @@ def root() -> dict[str, Any]:
         "name": "OPSWAT Rebrand API",
         "docs": "/docs",
         "health": "/api/health",
-        "boundary": "V1 rebrands web codebase ZIPs only. Documents/PDFs are future routes.",
+        "boundary": "V1 rebrands app-agnostic web codebase ZIPs only. Documents/PDFs are future routes.",
     }
 
 

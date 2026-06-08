@@ -2,6 +2,11 @@
 
 Reusable service for rebranding web codebases into OPSWAT Product UI style.
 
+This is app-agnostic. It is not tied to Flow Architect or any single OPSWAT demo.
+Flow Architect is only a useful test case because it is a real app that needs an
+OPSWAT redesign. The intended workflow is: build any internal web tool, zip the
+repo, send it to this API, and receive an OPSWAT-branded version back.
+
 V1 accepts a zipped web codebase, runs the deterministic OPSWAT rebrand engine, and returns:
 
 - a rebranded ZIP,
@@ -32,6 +37,14 @@ Future routes can add document transformation:
 ```
 
 For now, `/api/rebrands` is codebase ZIP only.
+
+Suitable examples:
+
+- a use-case generator,
+- a partner account-mapping tool,
+- an internal dashboard,
+- a diagram helper UI,
+- a proof-of-concept web app that needs OPSWAT styling.
 
 ## Setup
 
