@@ -33,6 +33,7 @@ JOB_RETENTION_SECONDS = int(os.environ.get("JOB_RETENTION_SECONDS", "86400"))
 
 ALLOWED_DEPTHS = {"tokens", "theme", "full"}
 ALLOWED_DESIGN_MODES = {"product_ui"}
+ALLOWED_TARGET_THEMES = {"auto", "light", "dark"}
 SKIP_DIRS = {".git", "node_modules", "dist", "build", ".next", "vendor", "_archive"}
 
 executor = ThreadPoolExecutor(max_workers=JOB_WORKERS)
@@ -55,6 +56,7 @@ class RebrandJob(BaseModel):
     message: str
     depth: Literal["tokens", "theme", "full"]
     design_mode: Literal["product_ui"]
+    target_theme: Literal["auto", "light", "dark"] = "auto"
     created_at: float
     updated_at: float
     report_url: Optional[str] = None
@@ -176,7 +178,7 @@ def write_metadata(job_dir: Path, metadata: dict[str, Any]) -> None:
     (job_dir / "metadata.json").write_text(json.dumps(metadata, indent=2), encoding="utf-8")
 
 
-def process_job(job_id: str, upload_path: Path, depth: str, design_mode: str) -> None:
+def process_job(job_id: str, upload_path: Path, depth: str, design_mode: str, target_theme: str) -> None:
     job_dir = JOBS_DIR / job_id
     try:
         update_job(job_id, status="running", message="Extracting uploaded codebase")
@@ -185,7 +187,13 @@ def process_job(job_id: str, upload_path: Path, depth: str, design_mode: str) ->
         output_root = job_dir / "output"
 
         update_job(job_id, message="Applying OPSWAT deterministic rebrand pass")
-        report = run_rebrand(str(source_root), str(output_root), depth=depth, verbose=False)
+        report = run_rebrand(
+            str(source_root),
+            str(output_root),
+            depth=depth,
+            target_theme=target_theme,
+            verbose=False,
+        )
 
         update_job(job_id, message="Packaging rebranded codebase")
         artifact_path = job_dir / f"{job_id}-opswat-rebrand.zip"
@@ -196,6 +204,7 @@ def process_job(job_id: str, upload_path: Path, depth: str, design_mode: str) ->
             "status": "complete",
             "depth": depth,
             "design_mode": design_mode,
+            "target_theme": target_theme,
             "report": report,
             "artifact": artifact_path.name,
         }
@@ -233,6 +242,7 @@ def health() -> dict[str, Any]:
         "brand_dir_exists": Path(os.environ.get("OPSWAT_BRAND_DIR", "")).exists(),
         "supported_depths": sorted(ALLOWED_DEPTHS),
         "supported_design_modes": sorted(ALLOWED_DESIGN_MODES),
+        "supported_target_themes": sorted(ALLOWED_TARGET_THEMES),
         "future_routes": ["documents", "pdfs", "presentations"],
     }
 
@@ -242,12 +252,15 @@ async def create_rebrand(
     file: UploadFile = File(...),
     depth: Literal["tokens", "theme", "full"] = Form("full"),
     design_mode: Literal["product_ui"] = Form("product_ui"),
+    target_theme: Literal["auto", "light", "dark"] = Form("auto"),
 ) -> dict[str, Any]:
     prune_jobs()
     if depth not in ALLOWED_DEPTHS:
         raise HTTPException(status_code=400, detail="Unsupported depth")
     if design_mode not in ALLOWED_DESIGN_MODES:
         raise HTTPException(status_code=400, detail="Unsupported design mode")
+    if target_theme not in ALLOWED_TARGET_THEMES:
+        raise HTTPException(status_code=400, detail="Unsupported target theme")
     if not file.filename or not file.filename.lower().endswith(".zip"):
         raise HTTPException(status_code=400, detail="Upload a .zip codebase archive")
 
@@ -275,12 +288,13 @@ async def create_rebrand(
             "message": "Queued",
             "depth": depth,
             "design_mode": design_mode,
+            "target_theme": target_theme,
             "created_at": created,
             "updated_at": created,
             "original_filename": file.filename,
             "upload_bytes": total,
         }
-        jobs[job_id]["future"] = executor.submit(process_job, job_id, upload_path, depth, design_mode)
+        jobs[job_id]["future"] = executor.submit(process_job, job_id, upload_path, depth, design_mode, target_theme)
 
     return snapshot(job_id)
 

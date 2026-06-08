@@ -16,6 +16,9 @@ NEUTRALS = ["#ffffff", "#f4f4f5", "#e9eaeb", "#d2d4d6", "#bcbfc3",
 BG_NEUTRALS     = ["#ffffff", "#f4f4f5", "#e9eaeb", "#d2d4d6"]   # light → less light
 FG_NEUTRALS     = ["#1b273c", "#485161", "#707682", "#a4a8ae"]   # dark → less dark
 BORDER_NEUTRALS = ["#e9eaeb", "#d2d4d6"]
+DARK_BG_NEUTRALS = ["#050916", "#080f21", "#0b1424", "#132346"]
+DARK_FG_NEUTRALS = ["#ffffff", "#d7e1fc", "#a9bee6", "#707682"]
+DARK_BORDER = "#284678"
 SHADOW_RGB      = (27, 39, 60)
 STATUS = {"error": "#d00300", "success": "#008a00", "warning": "#ed6706",
           "purple": "#7e32dd", "teal": "#178594", "info": "#1d6bfc"}
@@ -94,8 +97,9 @@ def _nearest_by_lum(candidates, target_lum):
 class Mapper:
     """Maps one source colour → an OPSWAT colour, given its CSS role and the
     detected polarity of the source theme."""
-    def __init__(self, polarity, accent_rgb):
-        self.polarity = polarity          # "dark" or "light"
+    def __init__(self, polarity, accent_rgb, target_polarity="light"):
+        self.polarity = polarity          # source: "dark" or "light"
+        self.target_polarity = target_polarity
         self.accent = accent_rgb          # (r,g,b) of the brand accent, or None
 
     def _is_accent(self, rgb):
@@ -113,8 +117,11 @@ class Mapper:
 
         # borders + shadows are always neutral in OPSWAT (regardless of source hue)
         if role == "shadow":
-            return _fmt(SHADOW_RGB, a if (a is not None and a < 1) else 0.12)
+            return _fmt((0, 0, 0) if self.target_polarity == "dark" else SHADOW_RGB,
+                        a if (a is not None and a < 1) else 0.18)
         if role == "border":
+            if self.target_polarity == "dark":
+                return self._out(DARK_BORDER, a)
             return self._out(BORDER_NEUTRALS[0], a)
 
         # vivid brand / status colours
@@ -127,6 +134,25 @@ class Mapper:
             if fam in ("purple", "indigo"):  return self._out(STATUS["purple"], a)
 
         # neutrals / muted tints / dark navies-as-surface — role + polarity aware
+        if self.target_polarity == "dark":
+            if role == "bg":
+                if L < 0.08:
+                    tgt = DARK_BG_NEUTRALS[0]
+                elif L < 0.18:
+                    tgt = DARK_BG_NEUTRALS[1]
+                elif L < 0.45:
+                    tgt = DARK_BG_NEUTRALS[2]
+                else:
+                    tgt = DARK_BG_NEUTRALS[1]
+                return self._out(tgt, a)
+            if role == "fg":
+                if self.polarity == "light":
+                    tgt = "#ffffff" if L < 0.24 else "#d7e1fc" if L < 0.5 else "#a9bee6"
+                else:
+                    tgt = "#ffffff" if L > 0.74 else "#d7e1fc" if L > 0.5 else "#a9bee6" if L > 0.25 else "#707682"
+                return self._out(tgt, a)
+            return self._out(_nearest_by_lum(DARK_BG_NEUTRALS + DARK_FG_NEUTRALS, L), a)
+
         invert = (self.polarity == "dark")     # dark source → light OPSWAT
         if role == "bg":
             if invert:

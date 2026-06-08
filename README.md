@@ -82,7 +82,8 @@ http://127.0.0.1:8060/docs
 curl -s -X POST http://127.0.0.1:8060/api/rebrands \
   -F "file=@my-app.zip" \
   -F "depth=full" \
-  -F "design_mode=product_ui"
+  -F "design_mode=product_ui" \
+  -F "target_theme=auto"
 ```
 
 Depth options:
@@ -90,6 +91,12 @@ Depth options:
 - `tokens` - color/font token rewrite only.
 - `theme` - token rewrite plus OPSWAT baseline CSS and logo swap.
 - `full` - theme plus `RESTYLE_WORKORDER.md` for agentic component restyle and visual QA.
+
+Target theme options:
+
+- `auto` - preserve the detected source polarity; dark apps stay dark, light apps stay light.
+- `dark` - force OPSWAT dark product styling.
+- `light` - force OPSWAT light product styling.
 
 ## Check Status
 

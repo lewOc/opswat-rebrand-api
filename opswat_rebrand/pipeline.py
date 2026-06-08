@@ -61,7 +61,7 @@ def detect_stack(src):
     if not info['framework'] and any(_walk(src, HTML_EXT)): info['framework'] = 'static'
     return info
 
-def run(src, out, depth="full", verbose=True):
+def run(src, out, depth="full", target_theme="auto", verbose=True):
     if os.path.abspath(src) == os.path.abspath(out):
         raise SystemExit("Refusing to write over the source. Choose a different --out.")
     if os.path.exists(out):
@@ -80,7 +80,8 @@ def run(src, out, depth="full", verbose=True):
             for r, n in rec['roles'].items():
                 a['roles'][r] = a['roles'].get(r, 0) + n
     polarity, accent = E.detect_polarity_accent(agg)
-    mapper = P.Mapper(polarity, accent)
+    target_polarity = polarity if target_theme == "auto" else target_theme
+    mapper = P.Mapper(polarity, accent, target_polarity=target_polarity)
 
     # ---- transform CSS (declaration-aware colour + font remap) ----
     css_files = []
@@ -88,7 +89,7 @@ def run(src, out, depth="full", verbose=True):
         css = open(css_path, encoding='utf-8', errors='ignore').read()
         new = E.rewrite_css(css, mapper)
         if depth in ('theme', 'full'):
-            new += E.BASELINE_OVERRIDE
+            new += E.baseline_override(target_polarity)
         if new != css:
             open(css_path, 'w', encoding='utf-8').write(new)
             css_files.append(os.path.relpath(css_path, out))
@@ -112,6 +113,7 @@ def run(src, out, depth="full", verbose=True):
         "stack": stack,
         "source_theme": {"polarity": polarity,
                           "accent": ("#%02x%02x%02x" % accent) if accent else None},
+        "target_theme": {"polarity": target_polarity, "requested": target_theme},
         "depth": depth,
         "files_changed": {"css": css_files, "html": html_files, "logos": logos_swapped},
         "color_map": color_map,
@@ -150,6 +152,7 @@ product-UI design system using the `opswat-ui` skill, then verify visually.
 
 ## Context
 - Source theme polarity: **%s**, brand accent: **%s**
+- Target theme polarity: **%s** (requested: `%s`)
 - Token map applied (top 20):
 %s
 
@@ -165,7 +168,13 @@ product-UI design system using the `opswat-ui` skill, then verify visually.
 ## Verify loop (REQUIRED)
 Serve the app, screenshot at 1440×900, compare against opswat-ui, fix issues, repeat until
 clean. Use computed styles (getComputedStyle) to confirm exact token values.
-""" % (report['source_theme']['polarity'], report['source_theme']['accent'], cm)
+""" % (
+        report['source_theme']['polarity'],
+        report['source_theme']['accent'],
+        report.get('target_theme', {}).get('polarity', 'light'),
+        report.get('target_theme', {}).get('requested', 'auto'),
+        cm,
+    )
 
 def _print_summary(r, out):
     print("OPSWAT rebrand complete → %s" % out)

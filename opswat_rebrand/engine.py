@@ -92,14 +92,14 @@ def flatten_bg(val, mapper):
     fill (e.g. a button) keeps its colour; a decorative wash becomes a light surface."""
     cols = _colors_in(val)
     if not cols:
-        return "#ffffff"
+        return "#080f21" if mapper.target_polarity == "dark" else "#ffffff"
     decorative = ('transparent' in val.lower()
                   or any((c[3] is not None and c[3] < 0.85) for c in cols))
     if not decorative:
         for c in cols:
             if _is_vivid(c):
                 return mapper.map((c[0], c[1], c[2], 1.0), "bg")  # vivid → primary/status
-    return "#ffffff"
+    return "#080f21" if mapper.target_polarity == "dark" else "#ffffff"
 
 def deglow_shadow(val, mapper):
     """Neon glow (saturated-colour shadow) → OPSWAT subtle shadow; else None (map normally)."""
@@ -158,9 +158,15 @@ def inject_fonts_html(html):
         return html[:m.start()] + '    ' + INTER_LINK + '\n  ' + html[m.start():], True
     return html, False
 
-BASELINE_OVERRIDE = """
+def baseline_override(target_polarity="light"):
+    panel_bg = "#0b1424" if target_polarity == "dark" else "#ffffff"
+    canvas_bg = "#050916" if target_polarity == "dark" else "#f4f4f5"
+    border = "#284678" if target_polarity == "dark" else "#e9eaeb"
+    text = "#ffffff" if target_polarity == "dark" else "#1b273c"
+    muted = "#a9bee6" if target_polarity == "dark" else "#707682"
+    return """
 /* ===== OPSWAT baseline (opswat-rebrand, depth>=theme) — app-agnostic ===== */
-body { font-family: %s; }
+body { font-family: %s; background: %s; color: %s; }
 a { color: %s; }
 :focus-visible { outline: none; box-shadow: 0 0 0 2px #7eaafd; }
 
@@ -187,7 +193,33 @@ input:not([type="button"]):not([type="submit"]):not([type="checkbox"]):not([type
 select, textarea {
   border-radius: 4px !important;
 }
-""" % (P.FONT_SANS, P.PRIMARY, P.PRIMARY, P.PRIMARY, P.PRIMARY_HOVER, P.PRIMARY_HOVER)
+[class*="panel"], [class*="Panel"], [class*="card"], [class*="Card"],
+[class*="sidebar"], [class*="Sidebar"], [class*="toolbar"], [class*="Toolbar"] {
+  background-color: %s;
+  border-color: %s;
+  color: %s;
+}
+[class*="muted"], [class*="Muted"], small { color: %s; }
+[class*="canvas"], [class*="Canvas"], [class*="workspace"], [class*="Workspace"] {
+  background-color: %s;
+  border-color: %s;
+}
+""" % (
+        P.FONT_SANS,
+        canvas_bg,
+        text,
+        P.PRIMARY,
+        P.PRIMARY,
+        P.PRIMARY,
+        P.PRIMARY_HOVER,
+        P.PRIMARY_HOVER,
+        panel_bg,
+        border,
+        text,
+        muted,
+        canvas_bg,
+        border,
+    )
 
 # ---- REPORT -------------------------------------------------------------------
 def build_color_map(colors, mapper):
