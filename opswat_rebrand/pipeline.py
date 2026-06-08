@@ -7,10 +7,9 @@ CSS_EXT = ('.css',)
 HTML_EXT = ('.html', '.htm')
 SKIP_DIRS = {'.git', 'node_modules', 'dist', 'build', '.next', 'vendor', '_archive'}
 
-# OPSWAT brand hub (real fonts/logos), located relative to this package
-BRAND_DIR = os.environ.get(
-    "OPSWAT_BRAND_DIR",
-    os.path.normpath(os.path.join(os.path.dirname(__file__), "..", "..", "opswat-brand")))
+# OPSWAT brand hub (real fonts/logos), located at the repo root by default.
+DEFAULT_BRAND_DIR = os.path.normpath(os.path.join(os.path.dirname(__file__), "..", "opswat-brand"))
+BRAND_DIR = os.environ.get("OPSWAT_BRAND_DIR", DEFAULT_BRAND_DIR)
 LOGO_RE = re.compile(r'(?i)(logo|favicon|brandmark|wordmark)')
 
 def _walk(root, exts):
@@ -20,12 +19,13 @@ def _walk(root, exts):
             if f.lower().endswith(exts):
                 yield os.path.join(dp, f)
 
-def swap_assets(out):
+def swap_assets(out, target_polarity="light"):
     """Replace the app's own logo/favicon image files with the authentic OPSWAT logo
     (matching extension). Returns list of replaced relpaths."""
+    tone = "white" if target_polarity == "dark" else "navy"
     src_logo = {
-        "logo": os.path.join(BRAND_DIR, "logos", "opswat", "OPSWAT_logo_notag_navy.%s"),
-        "mark": os.path.join(BRAND_DIR, "logos", "opswat", "OPSWAT_logo_mark_navy.%s"),
+        "logo": os.path.join(BRAND_DIR, "logos", "opswat", f"OPSWAT_logo_notag_{tone}.%s"),
+        "mark": os.path.join(BRAND_DIR, "logos", "opswat", f"OPSWAT_logo_mark_{tone}.%s"),
     }
     replaced = []
     for dp, dirs, files in os.walk(out):
@@ -106,7 +106,7 @@ def run(src, out, depth="full", target_theme="auto", verbose=True):
     # ---- swap logo/favicon assets for the real OPSWAT logo (theme+/full) ----
     logos_swapped = []
     if depth in ('theme', 'full'):
-        logos_swapped = swap_assets(out)
+        logos_swapped = swap_assets(out, target_polarity=target_polarity)
 
     color_map = E.build_color_map(agg, mapper)
     report = {
