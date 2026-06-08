@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="PROCESS" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <defs>
+    <style>
+      .cls-1 {
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+
+      .cls-1, .cls-2 {
+        fill: none;
+        stroke: #10141e;
+      }
+
+      .cls-2 {
+        stroke-miterlimit: 10;
+      }
+    </style>
+  </defs>
+  <line class="cls-1" x1="12.01" y1="22.5" x2="12.01" y2="20.5"/>
+  <line class="cls-1" x1="17.27" y1="21.08" x2="16.27" y2="19.35"/>
+  <line class="cls-1" x1="21.11" y1="17.23" x2="19.38" y2="16.23"/>
+  <line class="cls-1" x1="22.51" y1="11.97" x2="20.51" y2="11.97"/>
+  <line class="cls-1" x1="21.09" y1="6.71" x2="19.36" y2="7.71"/>
+  <line class="cls-1" x1="17.23" y1="2.87" x2="16.23" y2="4.6"/>
+  <line class="cls-1" x1="11.97" y1="1.47" x2="11.97" y2="3.47"/>
+  <line class="cls-1" x1="6.72" y1="2.89" x2="7.72" y2="4.63"/>
+  <line class="cls-1" x1="2.88" y1="6.75" x2="4.61" y2="7.75"/>
+  <line class="cls-1" x1="1.48" y1="12.01" x2="3.48" y2="12.01"/>
+  <line class="cls-1" x1="2.9" y1="17.26" x2="4.63" y2="16.26"/>
+  <line class="cls-1" x1="6.75" y1="21.1" x2="7.75" y2="19.37"/>
+  <path class="cls-2" d="M16.58,12c0,2.53-2.05,4.58-4.58,4.58s-4.58-2.05-4.58-4.58c0-1.34.58-2.55,1.5-3.39l.16-.15"/>
+  <path class="cls-2" d="M6.81,8.42l1.97-.06c.27,0,.5.2.51.47l.12,1.96"/>
+</svg>

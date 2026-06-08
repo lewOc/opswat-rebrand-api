@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="FILES" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #10141e;
+        stroke-miterlimit: 10;
+      }
+    </style>
+  </defs>
+  <path class="cls-1" d="M22.5,10.02v8.26c0,2.41-1.95,4.24-4.36,4.24h-.11c-2.51,0-4.52-1.89-4.52-4.37v-8.13c0-1.93,1.57-3.5,3.5-3.5h0c1.93,0,3.5,1.57,3.5,3.5v7.63c0,1.1-.9,2-2,2h0c-1.1,0-2-.89-2-2,0-2.21,0-5.63,0-5.63"/>
+  <path class="cls-1" d="M10.98,19.52H2c-.28,0-.5-.22-.5-.5V5.02c0-.28.22-.5.5-.5h19c.28,0,.5.22.5.5v2"/>
+  <polyline class="cls-1" points="1.67 4.65 11.5 13.5 13.5 11.95"/>
+</svg>

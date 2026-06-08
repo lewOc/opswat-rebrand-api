@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="SOFTWARE" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #10141e;
+        stroke-miterlimit: 10;
+      }
+    </style>
+  </defs>
+  <line class="cls-1" x1="16" y1="19.5" x2="8" y2="19.5"/>
+  <line class="cls-1" x1="12" y1="16.5" x2="12" y2="19.5"/>
+  <path class="cls-1" d="M22.5,16c0,.28-.22.5-.5.5H2c-.28,0-.5-.22-.5-.5V5c0-.28.22-.5.5-.5h0"/>
+  <path class="cls-1" d="M4,4.5h18c.28,0,.5.22.5.5v8.97"/>
+  <circle class="cls-1" cx="7.5" cy="10.5" r="3"/>
+  <line class="cls-1" x1="20" y1="8.5" x2="13" y2="8.5"/>
+  <line class="cls-1" x1="20" y1="10.5" x2="13" y2="10.5"/>
+  <line class="cls-1" x1="20" y1="12.5" x2="13" y2="12.5"/>
+</svg>

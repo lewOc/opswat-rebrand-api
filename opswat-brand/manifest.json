@@ -1,0 +1,1504 @@
+{
+  "name": "OPSWAT Brand Hub",
+  "version": "2025",
+  "source": "Sales Content/Brand Corporate (local snapshot of the online OPSWAT Brand Hub)",
+  "guidelines_pdf": "/Users/lewis/Documents/sales_content_folder_copy/Sales Content/Brand Corporate/OPSWAT_Brand-Guidelines-2025.pdf",
+  "online_brand_hub": "see *.url files in the source folder (Font/Logo/Word/Email/Video guidelines)",
+  "tokens": {
+    "colors": 15,
+    "fonts": "Simplon Norm (8 weights, ./fonts/)"
+  },
+  "fonts": [
+    "SimplonNorm-Bold.otf",
+    "SimplonNorm-BoldItalic.otf",
+    "SimplonNorm-Light.otf",
+    "SimplonNorm-LightItalic.otf",
+    "SimplonNorm-Medium.otf",
+    "SimplonNorm-MediumItalic.otf",
+    "SimplonNorm-Regular.otf",
+    "SimplonNorm-RegularItalic.otf"
+  ],
+  "logos": {
+    "opswat": {
+      "count": 64,
+      "lockups": [
+        "mark",
+        "notag",
+        "tag-2line-center",
+        "tag-2line-left",
+        "tag-center",
+        "tag-left"
+      ],
+      "colors": [
+        "blue",
+        "blue-navy",
+        "blue-white",
+        "midnight",
+        "navy",
+        "white"
+      ],
+      "formats": [
+        "svg",
+        "png"
+      ],
+      "clearspace_guides": 10,
+      "items": [
+        {
+          "file": "OPSWAT_logo_mark_blue.png",
+          "lockup": "mark",
+          "color": "blue",
+          "format": "png"
+        },
+        {
+          "file": "OPSWAT_logo_mark_blue.svg",
+          "lockup": "mark",
+          "color": "blue",
+          "format": "svg"
+        },
+        {
+          "file": "OPSWAT_logo_mark_midnight.png",
+          "lockup": "mark",
+          "color": "midnight",
+          "format": "png"
+        },
+        {
+          "file": "OPSWAT_logo_mark_midnight.svg",
+          "lockup": "mark",
+          "color": "midnight",
+          "format": "svg"
+        },
+        {
+          "file": "OPSWAT_logo_mark_navy.png",
+          "lockup": "mark",
+          "color": "navy",
+          "format": "png"
+        },
+        {
+          "file": "OPSWAT_logo_mark_navy.svg",
+          "lockup": "mark",
+          "color": "navy",
+          "format": "svg"
+        },
+        {
+          "file": "OPSWAT_logo_mark_white.png",
+          "lockup": "mark",
+          "color": "white",
+          "format": "png"
+        },
+        {
+          "file": "OPSWAT_logo_mark_white.svg",
+          "lockup": "mark",
+          "color": "white",
+          "format": "svg"
+        },
+        {
+          "file": "OPSWAT_logo_notag_blue.png",
+          "lockup": "notag",
+          "color": "blue",
+          "format": "png"
+        },
+        {
+          "file": "OPSWAT_logo_notag_blue.svg",
+          "lockup": "notag",
+          "color": "blue",
+          "format": "svg"
+        },
+        {
+          "file": "OPSWAT_logo_notag_midnight.png",
+          "lockup": "notag",
+          "color": "midnight",
+          "format": "png"
+        },
+        {
+          "file": "OPSWAT_logo_notag_midnight.svg",
+          "lockup": "notag",
+          "color": "midnight",
+          "format": "svg"
+        },
+        {
+          "file": "OPSWAT_logo_notag_navy.png",
+          "lockup": "notag",
+          "color": "navy",
+          "format": "png"
+        },
+        {
+          "file": "OPSWAT_logo_notag_navy.svg",
+          "lockup": "notag",
+          "color": "navy",
+          "format": "svg"
+        },
+        {
+          "file": "OPSWAT_logo_notag_white.png",
+          "lockup": "notag",
+          "color": "white",
+          "format": "png"
+        },
+        {
+          "file": "OPSWAT_logo_notag_white.svg",
+          "lockup": "notag",
+          "color": "white",
+          "format": "svg"
+        },
+        {
+          "file": "OPSWAT_logo_tag-2line-center_blue-navy.png",
+          "lockup": "tag-2line-center",
+          "color": "blue-navy",
+          "format": "png"
+        },
+        {
+          "file": "OPSWAT_logo_tag-2line-center_blue-navy.svg",
+          "lockup": "tag-2line-center",
+          "color": "blue-navy",
+          "format": "svg"
+        },
+        {
+          "file": "OPSWAT_logo_tag-2line-center_blue-white.png",
+          "lockup": "tag-2line-center",
+          "color": "blue-white",
+          "format": "png"
+        },
+        {
+          "file": "OPSWAT_logo_tag-2line-center_blue-white.svg",
+          "lockup": "tag-2line-center",
+          "color": "blue-white",
+          "format": "svg"
+        },
+        {
+          "file": "OPSWAT_logo_tag-2line-center_blue.png",
+          "lockup": "tag-2line-center",
+          "color": "blue",
+          "format": "png"
+        },
+        {
+          "file": "OPSWAT_logo_tag-2line-center_blue.svg",
+          "lockup": "tag-2line-center",
+          "color": "blue",
+          "format": "svg"
+        },
+        {
+          "file": "OPSWAT_logo_tag-2line-center_midnight.png",
+          "lockup": "tag-2line-center",
+          "color": "midnight",
+          "format": "png"
+        },
+        {
+          "file": "OPSWAT_logo_tag-2line-center_midnight.svg",
+          "lockup": "tag-2line-center",
+          "color": "midnight",
+          "format": "svg"
+        },
+        {
+          "file": "OPSWAT_logo_tag-2line-center_navy.png",
+          "lockup": "tag-2line-center",
+          "color": "navy",
+          "format": "png"
+        },
+        {
+          "file": "OPSWAT_logo_tag-2line-center_navy.svg",
+          "lockup": "tag-2line-center",
+          "color": "navy",
+          "format": "svg"
+        },
+        {
+          "file": "OPSWAT_logo_tag-2line-center_white.png",
+          "lockup": "tag-2line-center",
+          "color": "white",
+          "format": "png"
+        },
+        {
+          "file": "OPSWAT_logo_tag-2line-center_white.svg",
+          "lockup": "tag-2line-center",
+          "color": "white",
+          "format": "svg"
+        },
+        {
+          "file": "OPSWAT_logo_tag-2line-left_blue-navy.png",
+          "lockup": "tag-2line-left",
+          "color": "blue-navy",
+          "format": "png"
+        },
+        {
+          "file": "OPSWAT_logo_tag-2line-left_blue-navy.svg",
+          "lockup": "tag-2line-left",
+          "color": "blue-navy",
+          "format": "svg"
+        },
+        {
+          "file": "OPSWAT_logo_tag-2line-left_blue-white.png",
+          "lockup": "tag-2line-left",
+          "color": "blue-white",
+          "format": "png"
+        },
+        {
+          "file": "OPSWAT_logo_tag-2line-left_blue-white.svg",
+          "lockup": "tag-2line-left",
+          "color": "blue-white",
+          "format": "svg"
+        },
+        {
+          "file": "OPSWAT_logo_tag-2line-left_blue.png",
+          "lockup": "tag-2line-left",
+          "color": "blue",
+          "format": "png"
+        },
+        {
+          "file": "OPSWAT_logo_tag-2line-left_blue.svg",
+          "lockup": "tag-2line-left",
+          "color": "blue",
+          "format": "svg"
+        },
+        {
+          "file": "OPSWAT_logo_tag-2line-left_midnight.png",
+          "lockup": "tag-2line-left",
+          "color": "midnight",
+          "format": "png"
+        },
+        {
+          "file": "OPSWAT_logo_tag-2line-left_midnight.svg",
+          "lockup": "tag-2line-left",
+          "color": "midnight",
+          "format": "svg"
+        },
+        {
+          "file": "OPSWAT_logo_tag-2line-left_navy.png",
+          "lockup": "tag-2line-left",
+          "color": "navy",
+          "format": "png"
+        },
+        {
+          "file": "OPSWAT_logo_tag-2line-left_navy.svg",
+          "lockup": "tag-2line-left",
+          "color": "navy",
+          "format": "svg"
+        },
+        {
+          "file": "OPSWAT_logo_tag-2line-left_white.png",
+          "lockup": "tag-2line-left",
+          "color": "white",
+          "format": "png"
+        },
+        {
+          "file": "OPSWAT_logo_tag-2line-left_white.svg",
+          "lockup": "tag-2line-left",
+          "color": "white",
+          "format": "svg"
+        },
+        {
+          "file": "OPSWAT_logo_tag-center_blue-navy.png",
+          "lockup": "tag-center",
+          "color": "blue-navy",
+          "format": "png"
+        },
+        {
+          "file": "OPSWAT_logo_tag-center_blue-navy.svg",
+          "lockup": "tag-center",
+          "color": "blue-navy",
+          "format": "svg"
+        },
+        {
+          "file": "OPSWAT_logo_tag-center_blue-white.png",
+          "lockup": "tag-center",
+          "color": "blue-white",
+          "format": "png"
+        },
+        {
+          "file": "OPSWAT_logo_tag-center_blue-white.svg",
+          "lockup": "tag-center",
+          "color": "blue-white",
+          "format": "svg"
+        },
+        {
+          "file": "OPSWAT_logo_tag-center_blue.png",
+          "lockup": "tag-center",
+          "color": "blue",
+          "format": "png"
+        },
+        {
+          "file": "OPSWAT_logo_tag-center_blue.svg",
+          "lockup": "tag-center",
+          "color": "blue",
+          "format": "svg"
+        },
+        {
+          "file": "OPSWAT_logo_tag-center_midnight.png",
+          "lockup": "tag-center",
+          "color": "midnight",
+          "format": "png"
+        },
+        {
+          "file": "OPSWAT_logo_tag-center_midnight.svg",
+          "lockup": "tag-center",
+          "color": "midnight",
+          "format": "svg"
+        },
+        {
+          "file": "OPSWAT_logo_tag-center_navy.png",
+          "lockup": "tag-center",
+          "color": "navy",
+          "format": "png"
+        },
+        {
+          "file": "OPSWAT_logo_tag-center_navy.svg",
+          "lockup": "tag-center",
+          "color": "navy",
+          "format": "svg"
+        },
+        {
+          "file": "OPSWAT_logo_tag-center_white.png",
+          "lockup": "tag-center",
+          "color": "white",
+          "format": "png"
+        },
+        {
+          "file": "OPSWAT_logo_tag-center_white.svg",
+          "lockup": "tag-center",
+          "color": "white",
+          "format": "svg"
+        },
+        {
+          "file": "OPSWAT_logo_tag-left_blue-navy.png",
+          "lockup": "tag-left",
+          "color": "blue-navy",
+          "format": "png"
+        },
+        {
+          "file": "OPSWAT_logo_tag-left_blue-navy.svg",
+          "lockup": "tag-left",
+          "color": "blue-navy",
+          "format": "svg"
+        },
+        {
+          "file": "OPSWAT_logo_tag-left_blue-white.png",
+          "lockup": "tag-left",
+          "color": "blue-white",
+          "format": "png"
+        },
+        {
+          "file": "OPSWAT_logo_tag-left_blue-white.svg",
+          "lockup": "tag-left",
+          "color": "blue-white",
+          "format": "svg"
+        },
+        {
+          "file": "OPSWAT_logo_tag-left_blue.png",
+          "lockup": "tag-left",
+          "color": "blue",
+          "format": "png"
+        },
+        {
+          "file": "OPSWAT_logo_tag-left_blue.svg",
+          "lockup": "tag-left",
+          "color": "blue",
+          "format": "svg"
+        },
+        {
+          "file": "OPSWAT_logo_tag-left_midnight.png",
+          "lockup": "tag-left",
+          "color": "midnight",
+          "format": "png"
+        },
+        {
+          "file": "OPSWAT_logo_tag-left_midnight.svg",
+          "lockup": "tag-left",
+          "color": "midnight",
+          "format": "svg"
+        },
+        {
+          "file": "OPSWAT_logo_tag-left_navy.png",
+          "lockup": "tag-left",
+          "color": "navy",
+          "format": "png"
+        },
+        {
+          "file": "OPSWAT_logo_tag-left_navy.svg",
+          "lockup": "tag-left",
+          "color": "navy",
+          "format": "svg"
+        },
+        {
+          "file": "OPSWAT_logo_tag-left_white.png",
+          "lockup": "tag-left",
+          "color": "white",
+          "format": "png"
+        },
+        {
+          "file": "OPSWAT_logo_tag-left_white.svg",
+          "lockup": "tag-left",
+          "color": "white",
+          "format": "svg"
+        }
+      ]
+    },
+    "opswat_academy": {
+      "count": 10,
+      "items": [
+        {
+          "file": "LOGO_OA_rgb_v5_inline_neg_color.svg",
+          "format": "svg"
+        },
+        {
+          "file": "LOGO_OA_rgb_v5_inline_neg_w.svg",
+          "format": "svg"
+        },
+        {
+          "file": "LOGO_OA_rgb_v5_inline_pos_color.svg",
+          "format": "svg"
+        },
+        {
+          "file": "LOGO_OA_rgb_v5_inline_pos_gray.svg",
+          "format": "svg"
+        },
+        {
+          "file": "LOGO_OA_rgb_v5_inline_pos_k.svg",
+          "format": "svg"
+        },
+        {
+          "file": "LOGO_OA_rgb_v5_stacked_neg_color.svg",
+          "format": "svg"
+        },
+        {
+          "file": "LOGO_OA_rgb_v5_stacked_neg_w.svg",
+          "format": "svg"
+        },
+        {
+          "file": "LOGO_OA_rgb_v5_stacked_pos_color.svg",
+          "format": "svg"
+        },
+        {
+          "file": "LOGO_OA_rgb_v5_stacked_pos_gray.svg",
+          "format": "svg"
+        },
+        {
+          "file": "LOGO_OA_rgb_v5_stacked_pos_k.svg",
+          "format": "svg"
+        }
+      ]
+    },
+    "print_formats_note": "CMYK/EPS/TIFF print logos NOT copied (30MB) \u2014 in source Logos/OPSWAT/CMYK"
+  },
+  "icons": {
+    "line_art": {
+      "format": "SVG (recolorable)",
+      "total": 284,
+      "categories": {
+        "benefits": 13,
+        "cloud": 9,
+        "device": 49,
+        "files": 37,
+        "industries": 21,
+        "network": 10,
+        "process": 11,
+        "software": 14,
+        "technologies": 28,
+        "threats": 26,
+        "ui": 66
+      },
+      "items": {
+        "benefits": [
+          "mar-benefits-automated.svg",
+          "mar-benefits-compliant.svg",
+          "mar-benefits-cost-effective.svg",
+          "mar-benefits-customer-service.svg",
+          "mar-benefits-excellence.svg",
+          "mar-benefits-fast.svg",
+          "mar-benefits-free.svg",
+          "mar-benefits-integrated.svg",
+          "mar-benefits-reliable.svg",
+          "mar-benefits-resilient.svg",
+          "mar-benefits-scalable.svg",
+          "mar-benefits-simple.svg",
+          "mar-benefits-strong.svg"
+        ],
+        "cloud": [
+          "mar-cloud-app.svg",
+          "mar-cloud-base.svg",
+          "mar-cloud-connection.svg",
+          "mar-cloud-database.svg",
+          "mar-cloud-safe.svg",
+          "mar-cloud-server.svg",
+          "mar-cloud-storage.svg",
+          "mar-cloud-target.svg",
+          "mar-cloud-unsafe.svg"
+        ],
+        "device": [
+          "mar-device-atm.svg",
+          "mar-device-cpu.svg",
+          "mar-device-data-diode.svg",
+          "mar-device-database-safe.svg",
+          "mar-device-database-unsafe.svg",
+          "mar-device-database.svg",
+          "mar-device-desktop-safe.svg",
+          "mar-device-desktop-unsafe.svg",
+          "mar-device-desktop.svg",
+          "mar-device-engineering-station.svg",
+          "mar-device-firewall.svg",
+          "mar-device-fuse.svg",
+          "mar-device-hard-drive.svg",
+          "mar-device-hmi.svg",
+          "mar-device-hub.svg",
+          "mar-device-keyboard.svg",
+          "mar-device-kiosk-mini.svg",
+          "mar-device-kiosk-mobile.svg",
+          "mar-device-kiosk-stand.svg",
+          "mar-device-kiosk.svg",
+          "mar-device-laptop-safe.svg",
+          "mar-device-laptop-unsafe.svg",
+          "mar-device-laptop.svg",
+          "mar-device-mobile-safe.svg",
+          "mar-device-mobile-unsafe.svg",
+          "mar-device-mobile.svg",
+          "mar-device-monitor.svg",
+          "mar-device-mouse.svg",
+          "mar-device-mri.svg",
+          "mar-device-plc.svg",
+          "mar-device-printer.svg",
+          "mar-device-pump.svg",
+          "mar-device-removable-usb-firewall.svg",
+          "mar-device-removable-usb-safe.svg",
+          "mar-device-removable-usb-unsafe.svg",
+          "mar-device-removeable-card.svg",
+          "mar-device-removeable-cd.svg",
+          "mar-device-removeable-floppy.svg",
+          "mar-device-removeable-sd.svg",
+          "mar-device-removeable-usb.svg",
+          "mar-device-robotic-arm.svg",
+          "mar-device-router.svg",
+          "mar-device-server-safe.svg",
+          "mar-device-server-unsafe.svg",
+          "mar-device-server.svg",
+          "mar-device-switch.svg",
+          "mar-device-thermostat.svg",
+          "mar-device-turbine.svg",
+          "mar-device-valve.svg"
+        ],
+        "files": [
+          "mar-files-document-alert.svg",
+          "mar-files-document-allow.svg",
+          "mar-files-document-base.svg",
+          "mar-files-document-deny.svg",
+          "mar-files-document-multipage.svg",
+          "mar-files-document-safe.svg",
+          "mar-files-document-scan.svg",
+          "mar-files-document-story.svg",
+          "mar-files-document-unsafe.svg",
+          "mar-files-email-alert.svg",
+          "mar-files-email-allow.svg",
+          "mar-files-email-attachment.svg",
+          "mar-files-email-base.svg",
+          "mar-files-email-deny.svg",
+          "mar-files-email-open.svg",
+          "mar-files-email-safe.svg",
+          "mar-files-email-unsafe.svg",
+          "mar-files-excel.svg",
+          "mar-files-exe.svg",
+          "mar-files-folder-base.svg",
+          "mar-files-folder-open.svg",
+          "mar-files-folder-safe.svg",
+          "mar-files-folder-tree.svg",
+          "mar-files-folder-unsafe.svg",
+          "mar-files-htm.svg",
+          "mar-files-hwp.svg",
+          "mar-files-image.svg",
+          "mar-files-kit.svg",
+          "mar-files-message.svg",
+          "mar-files-pdf.svg",
+          "mar-files-text.svg",
+          "mar-files-video.svg",
+          "mar-files-word.svg",
+          "mar-files-xml.svg",
+          "mar-files-zip-base.svg",
+          "mar-files-zip-safe.svg",
+          "mar-files-zip-unsafe.svg"
+        ],
+        "industries": [
+          "mar-industries-chemical.svg",
+          "mar-industries-commerical.svg",
+          "mar-industries-communications.svg",
+          "mar-industries-dams.svg",
+          "mar-industries-defense.svg",
+          "mar-industries-emergency.svg",
+          "mar-industries-energy.svg",
+          "mar-industries-financial.svg",
+          "mar-industries-food.svg",
+          "mar-industries-gas.svg",
+          "mar-industries-government.svg",
+          "mar-industries-health.svg",
+          "mar-industries-it.svg",
+          "mar-industries-logistics.svg",
+          "mar-industries-manufacturing.svg",
+          "mar-industries-nuclear.svg",
+          "mar-industries-oil.svg",
+          "mar-industries-port.svg",
+          "mar-industries-rail.svg",
+          "mar-industries-transportation.svg",
+          "mar-industries-water.svg"
+        ],
+        "network": [
+          "mar-network-air-gap.svg",
+          "mar-network-connect-safe.svg",
+          "mar-network-connect-unsafe.svg",
+          "mar-network-download.svg",
+          "mar-network-firewall.svg",
+          "mar-network-global.svg",
+          "mar-network-hyperlink.svg",
+          "mar-network-internet.svg",
+          "mar-network-transfer.svg",
+          "mar-network-upload.svg"
+        ],
+        "process": [
+          "mar-process-analyze.svg",
+          "mar-process-archive.svg",
+          "mar-process-organize.svg",
+          "mar-process-pay.svg",
+          "mar-process-plan.svg",
+          "mar-process-processing.svg",
+          "mar-process-promote.svg",
+          "mar-process-target.svg",
+          "mar-process-to-do.svg",
+          "mar-process-update.svg",
+          "mar-process-workflow.svg"
+        ],
+        "software": [
+          "mar-software-api.svg",
+          "mar-software-app-base.svg",
+          "mar-software-app-desktop.svg",
+          "mar-software-app-download.svg",
+          "mar-software-condition.svg",
+          "mar-software-container.svg",
+          "mar-software-dashboard.svg",
+          "mar-software-kubernetes.svg",
+          "mar-software-macro.svg",
+          "mar-software-node.svg",
+          "mar-software-os.svg",
+          "mar-software-report.svg",
+          "mar-software-script.svg",
+          "mar-software-vault.svg"
+        ],
+        "technologies": [
+          "mar-technologies-access-control.svg",
+          "mar-technologies-anti-keylogging.svg",
+          "mar-technologies-anti-screen-capture.svg",
+          "mar-technologies-antiphishing.svg",
+          "mar-technologies-antispam.svg",
+          "mar-technologies-application-removal.svg",
+          "mar-technologies-bluetooth.svg",
+          "mar-technologies-cdr.svg",
+          "mar-technologies-country-of-origin-detection.svg",
+          "mar-technologies-device-detection.svg",
+          "mar-technologies-dlp.svg",
+          "mar-technologies-endpoint-compliance.svg",
+          "mar-technologies-endpoint-malware-detection.svg",
+          "mar-technologies-endpoint-vulnerability-assessment.svg",
+          "mar-technologies-extract-and-analyze.svg",
+          "mar-technologies-file-based-vulnerability-assessment.svg",
+          "mar-technologies-high-availability.svg",
+          "mar-technologies-multiscanning.svg",
+          "mar-technologies-network-visibility.svg",
+          "mar-technologies-one-way-traffic.svg",
+          "mar-technologies-patch-management.svg",
+          "mar-technologies-qr-code-sanitization.svg",
+          "mar-technologies-sandbox.svg",
+          "mar-technologies-sbom.svg",
+          "mar-technologies-software-defined-perimeter.svg",
+          "mar-technologies-threat-intelligence-feed.svg",
+          "mar-technologies-tool.svg",
+          "mar-technologies-two-way-traffic.svg"
+        ],
+        "threats": [
+          "mar-threats-backdoor.svg",
+          "mar-threats-brute-force.svg",
+          "mar-threats-credential-harvesting\u00a0.svg",
+          "mar-threats-ddos.svg",
+          "mar-threats-decoy.svg",
+          "mar-threats-espionage.svg",
+          "mar-threats-intrusion.svg",
+          "mar-threats-known.svg",
+          "mar-threats-malware-bug.svg",
+          "mar-threats-malware-infection.svg",
+          "mar-threats-malware-trojan.svg",
+          "mar-threats-malware.svg",
+          "mar-threats-nation-state.svg",
+          "mar-threats-phishing.svg",
+          "mar-threats-quishing.svg",
+          "mar-threats-ransom.svg",
+          "mar-threats-ransomware.svg",
+          "mar-threats-smishing.svg",
+          "mar-threats-social-engineering.svg",
+          "mar-threats-spoofing.svg",
+          "mar-threats-surveillance.svg",
+          "mar-threats-terrorism.svg",
+          "mar-threats-theft.svg",
+          "mar-threats-unknown.svg",
+          "mar-threats-vulnerability.svg",
+          "mar-threats-zero-day.svg"
+        ],
+        "ui": [
+          "ui-action-add.svg",
+          "ui-action-allow.svg",
+          "ui-action-attach.svg",
+          "ui-action-block.svg",
+          "ui-action-close.svg",
+          "ui-action-detach.svg",
+          "ui-action-disable.svg",
+          "ui-action-drag-360.svg",
+          "ui-action-drag-horizontal.svg",
+          "ui-action-drag-vertical.svg",
+          "ui-action-duplicate.svg",
+          "ui-action-enable.svg",
+          "ui-action-lock.svg",
+          "ui-action-login.svg",
+          "ui-action-logout.svg",
+          "ui-action-open.svg",
+          "ui-action-remove.svg",
+          "ui-action-send.svg",
+          "ui-action-share.svg",
+          "ui-action-sort.svg",
+          "ui-action-start.svg",
+          "ui-action-stop.svg",
+          "ui-action-unlock.svg",
+          "ui-arrows-carrot-down.svg",
+          "ui-arrows-carrot-left.svg",
+          "ui-arrows-carrot-right.svg",
+          "ui-arrows-carrot-up.svg",
+          "ui-arrows-chevron-down.svg",
+          "ui-arrows-chevron-left.svg",
+          "ui-arrows-chevron-right.svg",
+          "ui-arrows-chevron-up.svg",
+          "ui-arrows-main-down.svg",
+          "ui-arrows-main-left.svg",
+          "ui-arrows-main-right.svg",
+          "ui-arrows-main-up.svg",
+          "ui-base-control.svg",
+          "ui-base-filter.svg",
+          "ui-base-hamburger.svg",
+          "ui-base-hidden.svg",
+          "ui-base-home.svg",
+          "ui-base-information.svg",
+          "ui-base-link-base.svg",
+          "ui-base-link-broken.svg",
+          "ui-base-link-external.svg",
+          "ui-base-option.svg",
+          "ui-base-search.svg",
+          "ui-base-settings.svg",
+          "ui-base-user.svg",
+          "ui-base-users.svg",
+          "ui-base-view-compact.svg",
+          "ui-base-view-gallery.svg",
+          "ui-base-view-light.svg",
+          "ui-base-visible.svg",
+          "ui-feedback-dislike.svg",
+          "ui-feedback-done.svg",
+          "ui-feedback-invalid.svg",
+          "ui-feedback-like.svg",
+          "ui-feedback-warning.svg",
+          "ui-media-fullscreen.svg",
+          "ui-media-minimize.svg",
+          "ui-media-pause.svg",
+          "ui-media-play.svg",
+          "ui-media-volume-down.svg",
+          "ui-media-volume-max.svg",
+          "ui-media-volume-mute.svg",
+          "ui-media-volume-up.svg"
+        ]
+      },
+      "png_color_sets_in_source": [
+        "Navy 500px",
+        "White 500px",
+        "Blue 500px"
+      ]
+    },
+    "product_3d": {
+      "format": "PNG",
+      "total": 66,
+      "items": [
+        {
+          "file": "OPSWAT_T3_opswat-product-cloud-right-blue.png",
+          "name": "cloud",
+          "orientation": "right",
+          "color": "blue"
+        },
+        {
+          "file": "OPSWAT_T3_opswat-product-drive-right-blue.png",
+          "name": "drive",
+          "orientation": "right",
+          "color": "blue"
+        },
+        {
+          "file": "OPSWAT_T3_opswat-product-drive-with-digital-display-left-blue.png",
+          "name": "drive-with-digital-display",
+          "orientation": "left",
+          "color": "blue"
+        },
+        {
+          "file": "OPSWAT_T3_opswat-product-drive-with-digital-display-right-blue.png",
+          "name": "drive-with-digital-display",
+          "orientation": "right",
+          "color": "blue"
+        },
+        {
+          "file": "OPSWAT_T3_opswat-product-drivleft-blue.png",
+          "name": "drivleft-blue"
+        },
+        {
+          "file": "OPSWAT_T3_opswat-product-email-security-cloud-left-blue.png",
+          "name": "email-security-cloud",
+          "orientation": "left",
+          "color": "blue"
+        },
+        {
+          "file": "OPSWAT_T3_opswat-product-email-security-cloud-right-blue.png",
+          "name": "email-security-cloud",
+          "orientation": "right",
+          "color": "blue"
+        },
+        {
+          "file": "OPSWAT_T3_opswat-product-email-security-left-blue.png",
+          "name": "email-security",
+          "orientation": "left",
+          "color": "blue"
+        },
+        {
+          "file": "OPSWAT_T3_opswat-product-endpoint-left-blue.png",
+          "name": "endpoint",
+          "orientation": "left",
+          "color": "blue"
+        },
+        {
+          "file": "OPSWAT_T3_opswat-product-endpoint-right-blue.png",
+          "name": "endpoint",
+          "orientation": "right",
+          "color": "blue"
+        },
+        {
+          "file": "OPSWAT_T3_opswat-product-endpoint-security-sdk-left-blue.png",
+          "name": "endpoint-security-sdk",
+          "orientation": "left",
+          "color": "blue"
+        },
+        {
+          "file": "OPSWAT_T3_opswat-product-endpoint-security-sdk-right-blue.png",
+          "name": "endpoint-security-sdk",
+          "orientation": "right",
+          "color": "blue"
+        },
+        {
+          "file": "OPSWAT_T3_opswat-product-icap-cloud-left-blue.png",
+          "name": "icap-cloud",
+          "orientation": "left",
+          "color": "blue"
+        },
+        {
+          "file": "OPSWAT_T3_opswat-product-icap-cloud-right-blue.png",
+          "name": "icap-cloud",
+          "orientation": "right",
+          "color": "blue"
+        },
+        {
+          "file": "OPSWAT_T3_opswat-product-icap-server-left-blue.png",
+          "name": "icap-server",
+          "orientation": "left",
+          "color": "blue"
+        },
+        {
+          "file": "OPSWAT_T3_opswat-product-icap-server-right-blue.png",
+          "name": "icap-server",
+          "orientation": "right",
+          "color": "blue"
+        },
+        {
+          "file": "OPSWAT_T3_opswat-product-industrial-firewall-din-left-blue.png",
+          "name": "industrial-firewall-din",
+          "orientation": "left",
+          "color": "blue"
+        },
+        {
+          "file": "OPSWAT_T3_opswat-product-industrial-firewall-din-right-blue.png",
+          "name": "industrial-firewall-din",
+          "orientation": "right",
+          "color": "blue"
+        },
+        {
+          "file": "OPSWAT_T3_opswat-product-industrial-firewall-lite-left-blue.png",
+          "name": "industrial-firewall-lite",
+          "orientation": "left",
+          "color": "blue"
+        },
+        {
+          "file": "OPSWAT_T3_opswat-product-industrial-firewall-lite-right-blue.png",
+          "name": "industrial-firewall-lite",
+          "orientation": "right",
+          "color": "blue"
+        },
+        {
+          "file": "OPSWAT_T3_opswat-product-industrial-firewall-server-left-blue.png",
+          "name": "industrial-firewall-server",
+          "orientation": "left",
+          "color": "blue"
+        },
+        {
+          "file": "OPSWAT_T3_opswat-product-industrial-firewall-server-right-blue.png",
+          "name": "industrial-firewall-server",
+          "orientation": "right",
+          "color": "blue"
+        },
+        {
+          "file": "OPSWAT_T3_opswat-product-it-access-cloud-left-blue.png",
+          "name": "it-access-cloud",
+          "orientation": "left",
+          "color": "blue"
+        },
+        {
+          "file": "OPSWAT_T3_opswat-product-it-access-cloud-right-blue.png",
+          "name": "it-access-cloud",
+          "orientation": "right",
+          "color": "blue"
+        },
+        {
+          "file": "OPSWAT_T3_opswat-product-it-access-left-blue.png",
+          "name": "it-access",
+          "orientation": "left",
+          "color": "blue"
+        },
+        {
+          "file": "OPSWAT_T3_opswat-product-it-access-right-blue.png",
+          "name": "it-access",
+          "orientation": "right",
+          "color": "blue"
+        },
+        {
+          "file": "OPSWAT_T3_opswat-product-kiosk-mobile-left-blue.png",
+          "name": "kiosk-mobile",
+          "orientation": "left",
+          "color": "blue"
+        },
+        {
+          "file": "OPSWAT_T3_opswat-product-kiosk-mobile-right-blue.png",
+          "name": "kiosk-mobile",
+          "orientation": "right",
+          "color": "blue"
+        },
+        {
+          "file": "OPSWAT_T3_opswat-product-kiosk-tower-left-blue.png",
+          "name": "kiosk-tower",
+          "orientation": "left",
+          "color": "blue"
+        },
+        {
+          "file": "OPSWAT_T3_opswat-product-kiosk-tower-right-blue.png",
+          "name": "kiosk-tower",
+          "orientation": "right",
+          "color": "blue"
+        },
+        {
+          "file": "OPSWAT_T3_opswat-product-media-firewall-left-blue.png",
+          "name": "media-firewall",
+          "orientation": "left",
+          "color": "blue"
+        },
+        {
+          "file": "OPSWAT_T3_opswat-product-media-firewall-right-blue.png",
+          "name": "media-firewall",
+          "orientation": "right",
+          "color": "blue"
+        },
+        {
+          "file": "OPSWAT_T3_opswat-product-media-validation-left-blue.png",
+          "name": "media-validation",
+          "orientation": "left",
+          "color": "blue"
+        },
+        {
+          "file": "OPSWAT_T3_opswat-product-media-validation-right-blue.png",
+          "name": "media-validation",
+          "orientation": "right",
+          "color": "blue"
+        },
+        {
+          "file": "OPSWAT_T3_opswat-product-mft-left-blue.png",
+          "name": "mft",
+          "orientation": "left",
+          "color": "blue"
+        },
+        {
+          "file": "OPSWAT_T3_opswat-product-mft-right-blue.png",
+          "name": "mft",
+          "orientation": "right",
+          "color": "blue"
+        },
+        {
+          "file": "OPSWAT_T3_opswat-product-my-opswat-left-blue.png",
+          "name": "my-opswat",
+          "orientation": "left",
+          "color": "blue"
+        },
+        {
+          "file": "OPSWAT_T3_opswat-product-my-opswat-right-blue.png",
+          "name": "my-opswat",
+          "orientation": "right",
+          "color": "blue"
+        },
+        {
+          "file": "OPSWAT_T3_opswat-product-netwall-left-blue.png",
+          "name": "netwall",
+          "orientation": "left",
+          "color": "blue"
+        },
+        {
+          "file": "OPSWAT_T3_opswat-product-netwall-left-red.png",
+          "name": "netwall",
+          "orientation": "left",
+          "color": "red"
+        },
+        {
+          "file": "OPSWAT_T3_opswat-product-netwall-right-blue.png",
+          "name": "netwall",
+          "orientation": "right",
+          "color": "blue"
+        },
+        {
+          "file": "OPSWAT_T3_opswat-product-netwall-right-red.png",
+          "name": "netwall",
+          "orientation": "right",
+          "color": "red"
+        },
+        {
+          "file": "OPSWAT_T3_opswat-product-optical-diode-left-blue.png",
+          "name": "optical-diode",
+          "orientation": "left",
+          "color": "blue"
+        },
+        {
+          "file": "OPSWAT_T3_opswat-product-optical-diode-left-red.png",
+          "name": "optical-diode",
+          "orientation": "left",
+          "color": "red"
+        },
+        {
+          "file": "OPSWAT_T3_opswat-product-optical-diode-right-blue.png",
+          "name": "optical-diode",
+          "orientation": "right",
+          "color": "blue"
+        },
+        {
+          "file": "OPSWAT_T3_opswat-product-optical-diode-right-red.png",
+          "name": "optical-diode",
+          "orientation": "right",
+          "color": "red"
+        },
+        {
+          "file": "OPSWAT_T3_opswat-product-ot-access-left-blue.png",
+          "name": "ot-access",
+          "orientation": "left",
+          "color": "blue"
+        },
+        {
+          "file": "OPSWAT_T3_opswat-product-ot-access-right-blue.png",
+          "name": "ot-access",
+          "orientation": "right",
+          "color": "blue"
+        },
+        {
+          "file": "OPSWAT_T3_opswat-product-ot-security-left-blue.png",
+          "name": "ot-security",
+          "orientation": "left",
+          "color": "blue"
+        },
+        {
+          "file": "OPSWAT_T3_opswat-product-ot-security-right-blue.png",
+          "name": "ot-security",
+          "orientation": "right",
+          "color": "blue"
+        },
+        {
+          "file": "OPSWAT_T3_opswat-product-sandbox-left-blue.png",
+          "name": "sandbox",
+          "orientation": "left",
+          "color": "blue"
+        },
+        {
+          "file": "OPSWAT_T3_opswat-product-sandbox-right-blue.png",
+          "name": "sandbox",
+          "orientation": "right",
+          "color": "blue"
+        },
+        {
+          "file": "OPSWAT_T3_opswat-product-software-supply-chain-left-blue.png",
+          "name": "software-supply-chain",
+          "orientation": "left",
+          "color": "blue"
+        },
+        {
+          "file": "OPSWAT_T3_opswat-product-software-supply-chain-right-blue.png",
+          "name": "software-supply-chain",
+          "orientation": "right",
+          "color": "blue"
+        },
+        {
+          "file": "OPSWAT_T3_opswat-product-storage-security-cloud-left-blue.png",
+          "name": "storage-security-cloud",
+          "orientation": "left",
+          "color": "blue"
+        },
+        {
+          "file": "OPSWAT_T3_opswat-product-storage-security-cloud-right-blue.png",
+          "name": "storage-security-cloud",
+          "orientation": "right",
+          "color": "blue"
+        },
+        {
+          "file": "OPSWAT_T3_opswat-product-storage-security-left-blue.png",
+          "name": "storage-security",
+          "orientation": "left",
+          "color": "blue"
+        },
+        {
+          "file": "OPSWAT_T3_opswat-product-storage-security-on-prem-left-blue.png",
+          "name": "storage-security-on-prem",
+          "orientation": "left",
+          "color": "blue"
+        },
+        {
+          "file": "OPSWAT_T3_opswat-product-storage-security-on-prem-right-blue.png",
+          "name": "storage-security-on-prem",
+          "orientation": "right",
+          "color": "blue"
+        },
+        {
+          "file": "OPSWAT_T3_opswat-product-storage-security-right-blue.png",
+          "name": "storage-security",
+          "orientation": "right",
+          "color": "blue"
+        },
+        {
+          "file": "OPSWAT_T3_opswat-product-threat-intelligence-left-blue.png",
+          "name": "threat-intelligence",
+          "orientation": "left",
+          "color": "blue"
+        },
+        {
+          "file": "OPSWAT_T3_opswat-product-threat-intelligence-right-blue.png",
+          "name": "threat-intelligence",
+          "orientation": "right",
+          "color": "blue"
+        },
+        {
+          "file": "OPSWAT_T3_opswat-product-transfer-guard-left-blue.png",
+          "name": "transfer-guard",
+          "orientation": "left",
+          "color": "blue"
+        },
+        {
+          "file": "OPSWAT_T3_opswat-product-transfer-guard-left-red.png",
+          "name": "transfer-guard",
+          "orientation": "left",
+          "color": "red"
+        },
+        {
+          "file": "OPSWAT_T3_opswat-product-transfer-guard-rgiht-red.png",
+          "name": "transfer-guard-rgiht-red"
+        },
+        {
+          "file": "OPSWAT_T3_opswat-product-transfer-guard-right-blue.png",
+          "name": "transfer-guard",
+          "orientation": "right",
+          "color": "blue"
+        }
+      ]
+    },
+    "generic_3d": {
+      "format": "PNG",
+      "total": 280,
+      "items": [
+        "OPSWAT_T2_Generic-device-hmi-left-yellow.png",
+        "OPSWAT_T2_Generic-device-sd-right-grey.png",
+        "OPSWAT_T2_Generic-files-package-left-grey.png",
+        "OPSWAT_T2_opswat-product-cloud-left-blue.png",
+        "OPSWAT_T2_opswat-product-email-security-right-blue.png",
+        "OPSWAT_T3_Generic-base-user-group-left-blue.png",
+        "OPSWAT_T3_Generic-base-user-group-left-grey.png",
+        "OPSWAT_T3_Generic-base-user-group-left-red.png",
+        "OPSWAT_T3_Generic-base-user-group-left-yellow.png",
+        "OPSWAT_T3_Generic-base-user-group-right-blue.png",
+        "OPSWAT_T3_Generic-base-user-group-right-grey.png",
+        "OPSWAT_T3_Generic-base-user-group-right-red.png",
+        "OPSWAT_T3_Generic-base-user-group-right-yellow.png",
+        "OPSWAT_T3_Generic-base-user-single-left-blue.png",
+        "OPSWAT_T3_Generic-base-user-single-left-grey.png",
+        "OPSWAT_T3_Generic-base-user-single-left-red.png",
+        "OPSWAT_T3_Generic-base-user-single-left-yellow.png",
+        "OPSWAT_T3_Generic-base-user-single-right-blue.png",
+        "OPSWAT_T3_Generic-base-user-single-right-grey.png",
+        "OPSWAT_T3_Generic-base-user-single-right-red.png",
+        "OPSWAT_T3_Generic-base-user-single-right-yellow.png",
+        "OPSWAT_T3_Generic-device-cd-left-blue.png",
+        "OPSWAT_T3_Generic-device-cd-left-grey.png",
+        "OPSWAT_T3_Generic-device-cd-left-red.png",
+        "OPSWAT_T3_Generic-device-cd-left-yellow.png",
+        "OPSWAT_T3_Generic-device-cd-right-blue.png",
+        "OPSWAT_T3_Generic-device-cd-right-grey.png",
+        "OPSWAT_T3_Generic-device-cd-right-red.png",
+        "OPSWAT_T3_Generic-device-cd-right-yellow.png",
+        "OPSWAT_T3_Generic-device-cloud-left-blue.png",
+        "OPSWAT_T3_Generic-device-cloud-left-grey.png",
+        "OPSWAT_T3_Generic-device-cloud-left-red.png",
+        "OPSWAT_T3_Generic-device-cloud-left-yellow.png",
+        "OPSWAT_T3_Generic-device-cloud-right-blue.png",
+        "OPSWAT_T3_Generic-device-cloud-right-grey.png",
+        "OPSWAT_T3_Generic-device-cloud-right-red.png",
+        "OPSWAT_T3_Generic-device-cloud-right-yellow.png",
+        "OPSWAT_T3_Generic-device-database-cloud-left-blue.png",
+        "OPSWAT_T3_Generic-device-database-cloud-left-grey.png",
+        "OPSWAT_T3_Generic-device-database-cloud-left-red.png",
+        "OPSWAT_T3_Generic-device-database-cloud-left-yellow.png",
+        "OPSWAT_T3_Generic-device-database-cloud-right-blue.png",
+        "OPSWAT_T3_Generic-device-database-cloud-right-grey.png",
+        "OPSWAT_T3_Generic-device-database-cloud-right-red.png",
+        "OPSWAT_T3_Generic-device-database-cloud-right-yellow.png",
+        "OPSWAT_T3_Generic-device-database-left-blue.png",
+        "OPSWAT_T3_Generic-device-database-left-grey.png",
+        "OPSWAT_T3_Generic-device-database-left-red.png",
+        "OPSWAT_T3_Generic-device-database-left-yellow.png",
+        "OPSWAT_T3_Generic-device-database-right-blue.png",
+        "OPSWAT_T3_Generic-device-database-right-grey.png",
+        "OPSWAT_T3_Generic-device-database-right-red.png",
+        "OPSWAT_T3_Generic-device-database-right-yellow.png",
+        "OPSWAT_T3_Generic-device-desktop-left-blue.png",
+        "OPSWAT_T3_Generic-device-desktop-left-grey.png",
+        "OPSWAT_T3_Generic-device-desktop-left-red.png",
+        "OPSWAT_T3_Generic-device-desktop-left-yellow.png",
+        "OPSWAT_T3_Generic-device-desktop-right-blue.png",
+        "OPSWAT_T3_Generic-device-desktop-right-grey.png",
+        "OPSWAT_T3_Generic-device-desktop-right-red.png",
+        "OPSWAT_T3_Generic-device-desktop-right-yellow.png",
+        "OPSWAT_T3_Generic-device-firewall-left-blue.png",
+        "OPSWAT_T3_Generic-device-firewall-left-grey.png",
+        "OPSWAT_T3_Generic-device-firewall-left-red.png",
+        "OPSWAT_T3_Generic-device-firewall-left-yellow.png",
+        "OPSWAT_T3_Generic-device-firewall-right-blue.png",
+        "OPSWAT_T3_Generic-device-firewall-right-grey.png",
+        "OPSWAT_T3_Generic-device-firewall-right-red.png",
+        "OPSWAT_T3_Generic-device-firewall-right-yellow.png",
+        "OPSWAT_T3_Generic-device-floppy-left-blue.png",
+        "OPSWAT_T3_Generic-device-floppy-left-grey.png",
+        "OPSWAT_T3_Generic-device-floppy-left-red.png",
+        "OPSWAT_T3_Generic-device-floppy-left-yellow.png",
+        "OPSWAT_T3_Generic-device-floppy-right-blue.png",
+        "OPSWAT_T3_Generic-device-floppy-right-grey.png",
+        "OPSWAT_T3_Generic-device-floppy-right-red.png",
+        "OPSWAT_T3_Generic-device-floppy-right-yellow.png",
+        "OPSWAT_T3_Generic-device-hmi-left-blue.png",
+        "OPSWAT_T3_Generic-device-hmi-left-grey.png",
+        "OPSWAT_T3_Generic-device-hmi-left-red.png",
+        "OPSWAT_T3_Generic-device-hmi-right-blue.png",
+        "OPSWAT_T3_Generic-device-hmi-right-grey.png",
+        "OPSWAT_T3_Generic-device-hmi-right-red.png",
+        "OPSWAT_T3_Generic-device-hmi-right-yellow.png",
+        "OPSWAT_T3_Generic-device-laptop-left-blue.png",
+        "OPSWAT_T3_Generic-device-laptop-left-grey.png",
+        "OPSWAT_T3_Generic-device-laptop-left-red.png",
+        "OPSWAT_T3_Generic-device-laptop-left-yellow.png",
+        "OPSWAT_T3_Generic-device-laptop-right-blue.png",
+        "OPSWAT_T3_Generic-device-laptop-right-grey.png",
+        "OPSWAT_T3_Generic-device-laptop-right-red.png",
+        "OPSWAT_T3_Generic-device-laptop-right-yellow.png",
+        "OPSWAT_T3_Generic-device-mobile-phone-left-blue.png",
+        "OPSWAT_T3_Generic-device-mobile-phone-left-grey.png",
+        "OPSWAT_T3_Generic-device-mobile-phone-left-red.png",
+        "OPSWAT_T3_Generic-device-mobile-phone-left-yellow.png",
+        "OPSWAT_T3_Generic-device-mobile-phone-right-blue.png",
+        "OPSWAT_T3_Generic-device-mobile-phone-right-grey.png",
+        "OPSWAT_T3_Generic-device-mobile-phone-right-red.png",
+        "OPSWAT_T3_Generic-device-mobile-phone-right-yellow.png",
+        "OPSWAT_T3_Generic-device-montior-left-blue.png",
+        "OPSWAT_T3_Generic-device-montior-left-grey.png",
+        "OPSWAT_T3_Generic-device-montior-left-red.png",
+        "OPSWAT_T3_Generic-device-montior-left-yellow.png",
+        "OPSWAT_T3_Generic-device-montior-right-blue.png",
+        "OPSWAT_T3_Generic-device-montior-right-grey.png",
+        "OPSWAT_T3_Generic-device-montior-right-red.png",
+        "OPSWAT_T3_Generic-device-montior-right-yellow.png",
+        "OPSWAT_T3_Generic-device-network-switch-left-blue.png",
+        "OPSWAT_T3_Generic-device-network-switch-left-grey.png",
+        "OPSWAT_T3_Generic-device-network-switch-left-red.png",
+        "OPSWAT_T3_Generic-device-network-switch-left-yellow.png",
+        "OPSWAT_T3_Generic-device-network-switch-right-blue.png",
+        "OPSWAT_T3_Generic-device-network-switch-right-grey.png",
+        "OPSWAT_T3_Generic-device-network-switch-right-red.png",
+        "OPSWAT_T3_Generic-device-network-switch-right-yellow.png",
+        "OPSWAT_T3_Generic-device-plc-left-blue.png",
+        "OPSWAT_T3_Generic-device-plc-left-grey.png",
+        "OPSWAT_T3_Generic-device-plc-left-red.png",
+        "OPSWAT_T3_Generic-device-plc-left-yellow.png",
+        "OPSWAT_T3_Generic-device-plc-right-blue.png",
+        "OPSWAT_T3_Generic-device-plc-right-grey.png",
+        "OPSWAT_T3_Generic-device-plc-right-red.png",
+        "OPSWAT_T3_Generic-device-plc-right-yellow.png",
+        "OPSWAT_T3_Generic-device-robot-arm-left-blue.png",
+        "OPSWAT_T3_Generic-device-robot-arm-left-grey.png",
+        "OPSWAT_T3_Generic-device-robot-arm-left-red.png",
+        "OPSWAT_T3_Generic-device-robot-arm-left-yellow.png",
+        "OPSWAT_T3_Generic-device-robot-arm-right-blue.png",
+        "OPSWAT_T3_Generic-device-robot-arm-right-grey.png",
+        "OPSWAT_T3_Generic-device-robot-arm-right-red.png",
+        "OPSWAT_T3_Generic-device-robot-arm-right-yellow.png",
+        "OPSWAT_T3_Generic-device-sd-left-blue.png",
+        "OPSWAT_T3_Generic-device-sd-left-grey.png",
+        "OPSWAT_T3_Generic-device-sd-left-red.png",
+        "OPSWAT_T3_Generic-device-sd-left-yellow.png",
+        "OPSWAT_T3_Generic-device-sd-right-blue.png",
+        "OPSWAT_T3_Generic-device-sd-right-red.png",
+        "OPSWAT_T3_Generic-device-sd-right-yellow.png",
+        "OPSWAT_T3_Generic-device-server-cloud-left-blue.png",
+        "OPSWAT_T3_Generic-device-server-cloud-left-grey.png",
+        "OPSWAT_T3_Generic-device-server-cloud-left-red.png",
+        "OPSWAT_T3_Generic-device-server-cloud-left-yellow.png",
+        "OPSWAT_T3_Generic-device-server-cloud-right-blue.png",
+        "OPSWAT_T3_Generic-device-server-cloud-right-grey.png",
+        "OPSWAT_T3_Generic-device-server-cloud-right-red.png",
+        "OPSWAT_T3_Generic-device-server-cloud-right-yellow.png",
+        "OPSWAT_T3_Generic-device-server-left-blue.png",
+        "OPSWAT_T3_Generic-device-server-left-grey.png",
+        "OPSWAT_T3_Generic-device-server-left-red.png",
+        "OPSWAT_T3_Generic-device-server-left-yellow.png",
+        "OPSWAT_T3_Generic-device-server-right-blue.png",
+        "OPSWAT_T3_Generic-device-server-right-grey.png",
+        "OPSWAT_T3_Generic-device-server-right-red.png",
+        "OPSWAT_T3_Generic-device-server-right-yellow.png",
+        "OPSWAT_T3_Generic-device-silo-left-blue.png",
+        "OPSWAT_T3_Generic-device-silo-left-grey.png",
+        "OPSWAT_T3_Generic-device-silo-left-red.png",
+        "OPSWAT_T3_Generic-device-silo-left-yellow.png",
+        "OPSWAT_T3_Generic-device-silo-right-blue.png",
+        "OPSWAT_T3_Generic-device-silo-right-grey.png",
+        "OPSWAT_T3_Generic-device-silo-right-red.png",
+        "OPSWAT_T3_Generic-device-silo-right-yellow.png",
+        "OPSWAT_T3_Generic-device-tank-left-blue.png",
+        "OPSWAT_T3_Generic-device-tank-left-grey.png",
+        "OPSWAT_T3_Generic-device-tank-left-red.png",
+        "OPSWAT_T3_Generic-device-tank-left-yellow.png",
+        "OPSWAT_T3_Generic-device-tank-right-blue.png",
+        "OPSWAT_T3_Generic-device-tank-right-grey.png",
+        "OPSWAT_T3_Generic-device-tank-right-red.png",
+        "OPSWAT_T3_Generic-device-tank-right-yellow.png",
+        "OPSWAT_T3_Generic-device-usb-left-blue.png",
+        "OPSWAT_T3_Generic-device-usb-left-grey.png",
+        "OPSWAT_T3_Generic-device-usb-left-red.png",
+        "OPSWAT_T3_Generic-device-usb-left-yellow.png",
+        "OPSWAT_T3_Generic-device-usb-right-blue.png",
+        "OPSWAT_T3_Generic-device-usb-right-grey.png",
+        "OPSWAT_T3_Generic-device-usb-right-red.png",
+        "OPSWAT_T3_Generic-device-usb-right-yellow.png",
+        "OPSWAT_T3_Generic-device-valve-left-blue.png",
+        "OPSWAT_T3_Generic-device-valve-left-grey.png",
+        "OPSWAT_T3_Generic-device-valve-left-red.png",
+        "OPSWAT_T3_Generic-device-valve-left-yellow.png",
+        "OPSWAT_T3_Generic-device-valve-right-blue.png",
+        "OPSWAT_T3_Generic-device-valve-right-grey.png",
+        "OPSWAT_T3_Generic-device-valve-right-red.png",
+        "OPSWAT_T3_Generic-device-valve-right-yellow.png",
+        "OPSWAT_T3_Generic-files-document-left-blue.png",
+        "OPSWAT_T3_Generic-files-document-left-grey.png",
+        "OPSWAT_T3_Generic-files-document-left-red.png",
+        "OPSWAT_T3_Generic-files-document-left-yellow.png",
+        "OPSWAT_T3_Generic-files-document-right-blue.png",
+        "OPSWAT_T3_Generic-files-document-right-grey.png",
+        "OPSWAT_T3_Generic-files-document-right-red.png",
+        "OPSWAT_T3_Generic-files-document-right-yellow.png",
+        "OPSWAT_T3_Generic-files-email-left-blue.png",
+        "OPSWAT_T3_Generic-files-email-left-grey.png",
+        "OPSWAT_T3_Generic-files-email-left-red.png",
+        "OPSWAT_T3_Generic-files-email-left-yellow.png",
+        "OPSWAT_T3_Generic-files-email-right-blue.png",
+        "OPSWAT_T3_Generic-files-email-right-grey.png",
+        "OPSWAT_T3_Generic-files-email-right-red.png",
+        "OPSWAT_T3_Generic-files-email-right-yellow.png",
+        "OPSWAT_T3_Generic-files-folder-left-blue.png",
+        "OPSWAT_T3_Generic-files-folder-left-grey.png",
+        "OPSWAT_T3_Generic-files-folder-left-red.png",
+        "OPSWAT_T3_Generic-files-folder-left-yellow.png",
+        "OPSWAT_T3_Generic-files-folder-right-blue.png",
+        "OPSWAT_T3_Generic-files-folder-right-grey.png",
+        "OPSWAT_T3_Generic-files-folder-right-red.png",
+        "OPSWAT_T3_Generic-files-folder-right-yellow.png",
+        "OPSWAT_T3_Generic-files-package-left-blue.png",
+        "OPSWAT_T3_Generic-files-package-left-red.png",
+        "OPSWAT_T3_Generic-files-package-left-yellow.png",
+        "OPSWAT_T3_Generic-files-package-right-blue.png",
+        "OPSWAT_T3_Generic-files-package-right-grey.png",
+        "OPSWAT_T3_Generic-files-package-right-red.png",
+        "OPSWAT_T3_Generic-files-package-right-yellow.png",
+        "OPSWAT_T3_Generic-files-package-zip-left-blue.png",
+        "OPSWAT_T3_Generic-files-package-zip-left-grey.png",
+        "OPSWAT_T3_Generic-files-package-zip-left-red.png",
+        "OPSWAT_T3_Generic-files-package-zip-left-yellow.png",
+        "OPSWAT_T3_Generic-files-package-zip-right-blue.png",
+        "OPSWAT_T3_Generic-files-package-zip-right-grey.png",
+        "OPSWAT_T3_Generic-files-package-zip-right-red.png",
+        "OPSWAT_T3_Generic-files-package-zip-right-yellow.png",
+        "OPSWAT_T3_Generic-threat-malware-2-left-blue.png",
+        "OPSWAT_T3_Generic-threat-malware-2-left-grey.png",
+        "OPSWAT_T3_Generic-threat-malware-2-left-red.png",
+        "OPSWAT_T3_Generic-threat-malware-2-left-yellow.png",
+        "OPSWAT_T3_Generic-threat-malware-2-right-blue.png",
+        "OPSWAT_T3_Generic-threat-malware-2-right-grey.png",
+        "OPSWAT_T3_Generic-threat-malware-2-right-red.png",
+        "OPSWAT_T3_Generic-threat-malware-2-right-yellow.png",
+        "OPSWAT_T3_Generic-threat-malware-left-blue copy.png",
+        "OPSWAT_T3_Generic-threat-malware-left-blue.png",
+        "OPSWAT_T3_Generic-threat-malware-left-grey copy.png",
+        "OPSWAT_T3_Generic-threat-malware-left-grey.png",
+        "OPSWAT_T3_Generic-threat-malware-left-red copy.png",
+        "OPSWAT_T3_Generic-threat-malware-left-red.png",
+        "OPSWAT_T3_Generic-threat-malware-left-yellow copy.png",
+        "OPSWAT_T3_Generic-threat-malware-left-yellow.png",
+        "OPSWAT_T3_Generic-threat-malware-right-blue copy.png",
+        "OPSWAT_T3_Generic-threat-malware-right-blue.png",
+        "OPSWAT_T3_Generic-threat-malware-right-grey copy.png",
+        "OPSWAT_T3_Generic-threat-malware-right-grey.png",
+        "OPSWAT_T3_Generic-threat-malware-right-red copy.png",
+        "OPSWAT_T3_Generic-threat-malware-right-red.png",
+        "OPSWAT_T3_Generic-threat-malware-right-yellow copy.png",
+        "OPSWAT_T3_Generic-threat-malware-right-yellow.png",
+        "OPSWAT_T3_Generic-threat-phishing-left-blue.png",
+        "OPSWAT_T3_Generic-threat-phishing-left-grey.png",
+        "OPSWAT_T3_Generic-threat-phishing-left-red.png",
+        "OPSWAT_T3_Generic-threat-phishing-left-yellow.png",
+        "OPSWAT_T3_Generic-threat-phishing-right-blue.png",
+        "OPSWAT_T3_Generic-threat-phishing-right-grey.png",
+        "OPSWAT_T3_Generic-threat-phishing-right-red.png",
+        "OPSWAT_T3_Generic-threat-phishing-right-yellow.png",
+        "OPSWAT_T3_Generic-threat-warning-left-blue.png",
+        "OPSWAT_T3_Generic-threat-warning-left-grey.png",
+        "OPSWAT_T3_Generic-threat-warning-left-red.png",
+        "OPSWAT_T3_Generic-threat-warning-left-yellow.png",
+        "OPSWAT_T3_Generic-threat-warning-right-blue.png",
+        "OPSWAT_T3_Generic-threat-warning-right-grey.png",
+        "OPSWAT_T3_Generic-threat-warning-right-red.png",
+        "OPSWAT_T3_Generic-threat-warning-right-yellow.png",
+        "OPSWAT_T3_Generic-threat-zero-day-left-blue.png",
+        "OPSWAT_T3_Generic-threat-zero-day-left-grey.png",
+        "OPSWAT_T3_Generic-threat-zero-day-left-red.png",
+        "OPSWAT_T3_Generic-threat-zero-day-left-yellow.png",
+        "OPSWAT_T3_Generic-threat-zero-day-right-blue.png",
+        "OPSWAT_T3_Generic-threat-zero-day-right-grey.png",
+        "OPSWAT_T3_Generic-threat-zero-day-right-red.png",
+        "OPSWAT_T3_Generic-threat-zero-day-right-yellow.png",
+        "OPSWAT_Tier_2_icons_update_v1_Generic-device-database-left-grey copy 3.png",
+        "OPSWAT_Tier_2_icons_update_v1_Generic-device-wasted-watertank-left-grey.png",
+        "OPSWAT_Tier_2_icons_update_v1_Generic-device-wasted-watertank-left-red.png",
+        "OPSWAT_Tier_2_icons_update_v1_Generic-device-water-tower-left-grey.png",
+        "OPSWAT_Tier_2_icons_update_v1_Generic-device-water-tower-left-red.png",
+        "OPSWAT_Tier_2_icons_update_v1_Generic-device-water-valve-left-red.png"
+      ]
+    }
+  },
+  "templates": [
+    "OPSWAT Letterhead Template.docx",
+    "OPSWAT Word Doc Template.docx"
+  ],
+  "not_copied_referenced_in_source": {
+    "logo_print_eps_tiff": "Logos/OPSWAT/CMYK (~30MB)",
+    "brand_guidelines_pdf": "OPSWAT_Brand-Guidelines-2025.pdf (~101MB)",
+    "icon_png_color_sets": "Icons/Tier 1 - Line Art/PNG - Flat Good for Quick Use/*"
+  }
+}

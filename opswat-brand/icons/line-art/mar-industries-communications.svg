@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="INDUSTRIES" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <defs>
+    <style>
+      .cls-1 {
+        stroke-linejoin: bevel;
+      }
+
+      .cls-1, .cls-2 {
+        fill: none;
+        stroke: #10141e;
+      }
+
+      .cls-2 {
+        stroke-miterlimit: 10;
+      }
+    </style>
+  </defs>
+  <path class="cls-2" d="M20.08,12c1.89-3.06,1.88-6.95-.03-10M15.89,10.91c2.15-2.15,2.15-5.63,0-7.78,2.15,2.15,2.15,5.63,0,7.78Z"/>
+  <path class="cls-2" d="M3.95,2c-1.91,3.05-1.91,6.94-.03,10M8.11,10.91c-2.15-2.15-2.15-5.63,0-7.78-2.15,2.15-2.15,5.63,0,7.78Z"/>
+  <circle class="cls-2" cx="12" cy="7.02" r="2.5"/>
+  <polyline class="cls-1" points="18.5 22.52 12 9.52 5.5 22.52"/>
+  <path class="cls-2" d="M9.92,13.74c.67-.16,1.36-.24,2.08-.24s1.44.09,2.12.25"/>
+  <path class="cls-2" d="M7.58,18.37c1.34-.62,2.83-.84,4.4-.84s3.15.25,4.52.9"/>
+</svg>

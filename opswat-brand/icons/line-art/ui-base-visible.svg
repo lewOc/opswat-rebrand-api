@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="BASE" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #10141e;
+        stroke-miterlimit: 10;
+      }
+    </style>
+  </defs>
+  <path class="cls-1" d="M22.02,13.95c-2.02,2.22-5.75,5.55-10.02,5.55-5.65,0-10.35-5.81-11.4-7.2-.13-.18-.13-.41,0-.59.01-.02.03-.04.04-.06"/>
+  <path class="cls-1" d="M1.96,10.06c2.01-2.22,5.75-5.56,10.04-5.56,5.65,0,10.35,5.81,11.4,7.2.13.18.13.41,0,.59-.02.02-.03.05-.05.06"/>
+  <ellipse class="cls-1" cx="12.03" cy="12" rx="4.51" ry="4.5"/>
+</svg>

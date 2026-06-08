@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="SHARE" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #10141e;
+        stroke-miterlimit: 10;
+      }
+    </style>
+  </defs>
+  <line class="cls-1" x1="22" y1="20.5" x2="10" y2="20.5"/>
+  <line class="cls-1" x1="19" y1="14.5" x2="10" y2="14.5"/>
+  <line class="cls-1" x1="16" y1="8.5" x2="10" y2="8.5"/>
+  <line class="cls-1" x1="5.5" y1="2.51" x2="5.5" y2="22"/>
+  <path class="cls-1" d="M2.5,5.5l2.63-2.83c.2-.22.53-.22.73,0l2.63,2.83"/>
+</svg>

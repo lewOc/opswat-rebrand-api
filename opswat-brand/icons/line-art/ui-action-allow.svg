@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="SHARE" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <defs>
+    <style>
+      .cls-1 {
+        stroke-linejoin: bevel;
+      }
+
+      .cls-1, .cls-2 {
+        fill: none;
+        stroke: #10141e;
+      }
+
+      .cls-2 {
+        stroke-miterlimit: 10;
+      }
+    </style>
+  </defs>
+  <polyline class="cls-2" points="7 11 11 15 17 9"/>
+  <path class="cls-1" d="M3.91,5.3c-1.51,1.82-2.41,4.15-2.41,6.7,0,5.8,4.7,10.5,10.5,10.5,2.16,0,4.17-.65,5.84-1.77.03-.02.07-.04.1-.07"/>
+  <path class="cls-1" d="M6.02,3.37c1.7-1.18,3.76-1.87,5.98-1.87,5.8,0,10.5,4.7,10.5,10.5,0,2.47-.85,4.74-2.28,6.53-.05.06-.1.12-.15.19"/>
+</svg>

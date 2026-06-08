@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <defs>
+    <style>
+      .cls-1 {
+        stroke-width: .94px;
+      }
+
+      .cls-1, .cls-2 {
+        stroke-linejoin: round;
+      }
+
+      .cls-1, .cls-2, .cls-3 {
+        fill: none;
+        stroke: #10141e;
+      }
+
+      .cls-3 {
+        stroke-miterlimit: 10;
+      }
+    </style>
+  </defs>
+  <g id="PROCESS">
+    <circle class="cls-2" cx="12" cy="15.5" r="4"/>
+    <line class="cls-1" x1="12" y1="10" x2="12" y2="14"/>
+    <line class="cls-1" x1="6" y1="15.5" x2="10" y2="15.5"/>
+    <line class="cls-1" x1="12" y1="21" x2="12" y2="17"/>
+    <line class="cls-1" x1="18" y1="15.5" x2="14" y2="15.5"/>
+  </g>
+  <g id="CLOUD">
+    <path class="cls-3" d="M20,17.27c2.03-.64,3.5-2.53,3.5-4.77,0-2.46-1.78-4.5-4.13-4.91.08-.35.13-.71.13-1.09,0-2.76-2.24-5-5-5-2.25,0-4.13,1.5-4.76,3.55-.68-.34-1.43-.55-2.24-.55-2.76,0-5,2.24-5,5,0,.18.03.35.05.52-1.22.68-2.05,1.98-2.05,3.48,0,2.04,1.53,3.72,3.5,3.97"/>
+  </g>
+</svg>

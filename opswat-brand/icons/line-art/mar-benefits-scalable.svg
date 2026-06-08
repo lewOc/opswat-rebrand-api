@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="BENEFITS" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <defs>
+    <style>
+      .cls-1 {
+        stroke-width: 1.05px;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4 {
+        fill: none;
+        stroke: #10141e;
+      }
+
+      .cls-1, .cls-4 {
+        stroke-miterlimit: 10;
+      }
+
+      .cls-2, .cls-3 {
+        stroke-linejoin: round;
+      }
+
+      .cls-3 {
+        stroke-dasharray: 2 2;
+      }
+    </style>
+  </defs>
+  <rect class="cls-4" x="2.5" y="11.5" width="10" height="10" rx=".65" ry=".65"/>
+  <path class="cls-1" d="M12,6.5h5c.27,0,.5.23.5.5v5"/>
+  <line class="cls-1" x1="17.5" y1="6.5" x2="12.5" y2="11.5"/>
+  <line class="cls-3" x1="2.5" y1="6" x2="2.5" y2="8"/>
+  <path class="cls-2" d="M3,2.5h-.25c-.14,0-.25.23-.25.5v1"/>
+  <path class="cls-2" d="M21.5,4v-1c0-.27-.22-.5-.5-.5h-1"/>
+  <line class="cls-2" x1="18" y1="2.5" x2="16" y2="2.5"/>
+  <line class="cls-2" x1="14" y1="2.5" x2="12" y2="2.5"/>
+  <line class="cls-2" x1="10" y1="2.5" x2="8" y2="2.5"/>
+  <line class="cls-2" x1="6" y1="2.5" x2="5" y2="2.5"/>
+  <line class="cls-2" x1="21.5" y1="8" x2="21.5" y2="6"/>
+  <line class="cls-2" x1="21.5" y1="12" x2="21.5" y2="10"/>
+  <line class="cls-2" x1="21.5" y1="16" x2="21.5" y2="14"/>
+  <line class="cls-2" x1="21.5" y1="19" x2="21.5" y2="18"/>
+  <path class="cls-2" d="M19.98,21.5h1.02c.27,0,.5-.11.5-.25v-.25"/>
+  <line class="cls-2" x1="16" y1="21.5" x2="18" y2="21.5"/>
+</svg>

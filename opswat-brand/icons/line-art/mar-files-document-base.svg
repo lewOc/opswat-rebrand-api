@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="FILES" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #10141e;
+        stroke-miterlimit: 10;
+      }
+    </style>
+  </defs>
+  <path class="cls-1" d="M19.5,22.02c0,.28-.22.5-.5.5H5c-.28,0-.5-.22-.5-.5V2.02c0-.28.22-.5.5-.5"/>
+  <path class="cls-1" d="M6.68,1.52h5.61c.13,0,.26.05.35.15l6.71,6.71c.09.09.15.22.15.35v11.31"/>
+  <path class="cls-1" d="M19.45,8.52h-6.95V1.57"/>
+</svg>

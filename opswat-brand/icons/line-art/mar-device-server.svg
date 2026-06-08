@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="DEVICES" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #10141e;
+      }
+
+      .cls-2 {
+        fill: none;
+        stroke: #10141e;
+        stroke-miterlimit: 10;
+      }
+    </style>
+  </defs>
+  <path class="cls-2" d="M19.03,20.5H3c-.28,0-.5-.22-.5-.5V3c0-.28.22-.5.5-.5"/>
+  <path class="cls-2" d="M5.01,2.5h15.99c.28,0,.5.22.5.5v17c0,.28-.22.5-.5.5"/>
+  <line class="cls-2" x1="21.5" y1="8.5" x2="2.5" y2="8.5"/>
+  <line class="cls-2" x1="21.5" y1="14.5" x2="2.5" y2="14.5"/>
+  <path class="cls-1" d="M5.5,17c-.28,0-.5.22-.5.5s.22.5.5.5.5-.22.5-.5-.22-.5-.5-.5h0Z"/>
+  <path class="cls-1" d="M5.5,11c-.28,0-.5.22-.5.5s.22.5.5.5.5-.22.5-.5-.22-.5-.5-.5h0Z"/>
+  <path class="cls-1" d="M5.5,5c-.28,0-.5.22-.5.5s.22.5.5.5.5-.22.5-.5-.22-.5-.5-.5h0Z"/>
+</svg>

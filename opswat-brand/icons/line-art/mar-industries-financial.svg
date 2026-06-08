@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="INDUSTRIES" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #10141e;
+        stroke-miterlimit: 10;
+      }
+    </style>
+  </defs>
+  <path class="cls-1" d="M12,12.52c.83,0,1.5.67,1.5,1.5s-.67,1.5-1.5,1.5-1.5-.67-1.5-1.5"/>
+  <path class="cls-1" d="M12,12.52c-.83,0-1.5-.67-1.5-1.5s.67-1.5,1.5-1.5,1.5.67,1.5,1.5"/>
+  <line class="cls-1" x1="12" y1="15.52" x2="12" y2="18.52"/>
+  <line class="cls-1" x1="12" y1="7.52" x2="12" y2="9.52"/>
+  <path class="cls-1" d="M21.5,7.52v-1.63c0-.22-.14-.41-.35-.48l-9-2.84c-.1-.03-.2-.03-.3,0L2.85,5.41c-.21.07-.35.26-.35.48v1.63h19Z"/>
+  <path class="cls-1" d="M21.5,21.02v-2.5H2.5v2.5c0,.28.22.5.5.5h18c.28,0,.5-.22.5-.5Z"/>
+  <line class="cls-1" x1="5.5" y1="7.52" x2="5.5" y2="18.52"/>
+  <line class="cls-1" x1="18.5" y1="18.52" x2="18.5" y2="7.52"/>
+  <line class="cls-1" x1="2.5" y1="10.02" x2="2.5" y2="18.52"/>
+  <line class="cls-1" x1="21.5" y1="7.52" x2="21.5" y2="16"/>
+</svg>

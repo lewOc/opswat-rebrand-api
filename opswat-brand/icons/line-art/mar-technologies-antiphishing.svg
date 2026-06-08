@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="TECHNOLOGIES" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: none;
+      }
+
+      .cls-2 {
+        stroke: #10141e;
+        stroke-miterlimit: 10;
+      }
+    </style>
+  </defs>
+  <circle class="cls-2" cx="12" cy="6" r="1.5"/>
+  <path class="cls-2" d="M8.51,16.39v-1.27s-.01-2.63-.01-2.63c0-.55.45-1,1-1h1.5c.55,0,1-.45,1-1v-3"/>
+  <path class="cls-2" d="M12,16l2.47-2.47h0c.63.63,1.03,1.51,1.03,2.47,0,1.93-1.57,3.5-3.5,3.5s-3.5-1.57-3.5-3.5"/>
+  <path class="cls-1" d="M.03-.04v24h24V-.04H.03Z"/>
+  <polygon class="cls-2" points="16.35 1.5 7.65 1.5 1.5 7.65 1.5 16.35 7.65 22.5 16.35 22.5 22.5 16.35 22.5 7.65 16.35 1.5"/>
+</svg>

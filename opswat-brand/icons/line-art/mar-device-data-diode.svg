@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="DEVICES" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #10141e;
+        stroke-miterlimit: 10;
+      }
+    </style>
+  </defs>
+  <path class="cls-1" d="M18.4,12.41l-13.12,8.98c-.33.23-.78-.01-.78-.41V3.02c0-.4.45-.64.78-.41l13.12,8.98c.29.2.29.63,0,.83Z"/>
+  <line class="cls-1" x1="19.5" y1="2" x2="19.5" y2="22"/>
+</svg>

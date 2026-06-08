@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="TECHNOLOGIES" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #10141e;
+        stroke-miterlimit: 10;
+      }
+    </style>
+  </defs>
+  <path class="cls-1" d="M17.44,5.5l3.92,4.16c.3.32.08.84-.36.84H2"/>
+  <path class="cls-1" d="M6.48,18.5l-3.92-4.16c-.3-.32-.08-.84.36-.84h19.07"/>
+</svg>

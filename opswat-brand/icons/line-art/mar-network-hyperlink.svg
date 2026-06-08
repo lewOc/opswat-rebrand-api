@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="NETWORK" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #10141e;
+        stroke-miterlimit: 10;
+      }
+    </style>
+  </defs>
+  <path class="cls-1" d="M11.64,9.53l-.71-.71c-.2-.2-.2-.52,0-.71l6.43-6.43c.2-.2.52-.2.71,0l4.28,4.28c.2.2.2.52,0,.71l-6.43,6.43c-.2.2-.52.2-.71,0l-.71-.71"/>
+  <path class="cls-1" d="M12.36,14.52l.71.71c.2.2.2.52,0,.71l-6.43,6.43c-.2.2-.52.2-.71,0l-4.28-4.28c-.2-.2-.2-.52,0-.71l6.43-6.43c.2-.2.52-.2.71,0l.71.71"/>
+  <line class="cls-1" x1="17.73" y1="6.3" x2="6.27" y2="17.75"/>
+</svg>

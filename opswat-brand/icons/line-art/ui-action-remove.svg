@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="SHARE" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #10141e;
+        stroke-miterlimit: 10;
+      }
+    </style>
+  </defs>
+  <line class="cls-1" x1="17.78" y1="19.99" x2="19.5" y2="4.5"/>
+  <path class="cls-1" d="M4.77,6.96l1.68,15.09c.03.25.24.44.5.44h10.1c.24,0,.45-.18.49-.42,0,0,.02-.07,0-.08"/>
+  <line class="cls-1" x1="3" y1="4.5" x2="21" y2="4.5"/>
+  <path class="cls-1" d="M8.5,4.5v-2.5c0-.28.22-.5.5-.5h6c.28,0,.5.22.5.5v2.5"/>
+  <line class="cls-1" x1="12" y1="7" x2="12" y2="18"/>
+  <line class="cls-1" x1="8.5" y1="7" x2="8.5" y2="18"/>
+  <line class="cls-1" x1="15.5" y1="7" x2="15.5" y2="18"/>
+</svg>

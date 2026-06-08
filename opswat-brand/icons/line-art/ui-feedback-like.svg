@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="FEEDBACK" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #10141e;
+        stroke-miterlimit: 10;
+      }
+    </style>
+  </defs>
+  <path class="cls-1" d="M17.01,21.5h.23c.23,0,.42-.15.48-.37l2.75-10c.09-.32-.15-.63-.48-.63h-9.43l2.87-4.95c.1-.16.09-.37-.02-.53l-1.53-2.3c-.17-.25-.52-.3-.75-.1L2.67,10.2c-.11.1-.17.23-.17.38v.41"/>
+  <path class="cls-1" d="M2.5,12.98v5.15c0,.2.12.39.31.47l6.66,2.87c.06.03.13.04.2.04h5.33"/>
+</svg>

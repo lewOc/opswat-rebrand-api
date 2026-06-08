@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="TECHNOLOGIES" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <defs>
+    <style>
+      .cls-1 {
+        stroke-linejoin: bevel;
+      }
+
+      .cls-1, .cls-2 {
+        fill: none;
+        stroke: #10141e;
+      }
+
+      .cls-2 {
+        stroke-miterlimit: 10;
+      }
+    </style>
+  </defs>
+  <path class="cls-2" d="M22.5,19c0,.28-.22.5-.5.5H2c-.28,0-.5-.22-.5-.5V5c0-.28.22-.5.5-.5"/>
+  <path class="cls-2" d="M4,4.5h18c.28,0,.5.22.5.5v11.98"/>
+  <circle class="cls-2" cx="12" cy="12" r="5.5"/>
+  <line class="cls-2" x1="20.81" y1="1.56" x2="2.81" y2="22.56"/>
+  <circle class="cls-1" cx="4" cy="6.98" r=".28"/>
+</svg>

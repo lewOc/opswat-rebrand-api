@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="FILES" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #10141e;
+        stroke-miterlimit: 10;
+      }
+    </style>
+  </defs>
+  <polygon class="cls-1" points="15.5 14 10.5 17.5 10.5 10.5 15.5 14"/>
+  <path class="cls-1" d="M4.01,2.52h17.99c.28,0,.5.22.5.5v18c0,.28-.22.5-.5.5"/>
+  <path class="cls-1" d="M19.96,21.52H2c-.28,0-.5-.22-.5-.5V3.02c0-.28.22-.5.5-.5"/>
+  <line class="cls-1" x1="1.5" y1="7.02" x2="22.5" y2="7.02"/>
+  <line class="cls-1" x1="10.5" y1="2.5" x2="6.07" y2="7.02"/>
+  <line class="cls-1" x1="18.5" y1="2.5" x2="14.07" y2="7.02"/>
+</svg>

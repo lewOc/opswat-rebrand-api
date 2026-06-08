@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="SOFTWARE" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #10141e;
+        stroke-miterlimit: 10;
+      }
+    </style>
+  </defs>
+  <path class="cls-1" d="M5,4.5h5.5v6h-6v-5.5c0-.28.22-.5.5-.5Z"/>
+  <path class="cls-1" d="M13.5,4.5h5.5c.28,0,.5.22.5.5v5.5h-6v-6h0Z"/>
+  <path class="cls-1" d="M4.5,13.5h6v6h-5.5c-.28,0-.5-.22-.5-.5v-5.5h0Z"/>
+  <path class="cls-1" d="M13.5,18v1c0,.28.22.5.5.5h5c.28,0,.5-.22.5-.5v-1"/>
+  <line class="cls-1" x1="16.5" y1="17.44" x2="16.5" y2="13"/>
+  <polyline class="cls-1" points="18.49 15.45 16.5 17.44 14.51 15.45"/>
+</svg>

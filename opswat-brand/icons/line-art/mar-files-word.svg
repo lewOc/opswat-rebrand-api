@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #10141e;
+      }
+
+      .cls-2 {
+        fill: none;
+        stroke: #10141e;
+        stroke-miterlimit: 10;
+      }
+    </style>
+  </defs>
+  <g id="FILES">
+    <path class="cls-2" d="M4.5,19.52v-8h16.5c.28,0,.5.22.5.5v7c0,.28-.22.5-.5.5H4.5Z"/>
+    <path class="cls-2" d="M7,1.52h5.29c.13,0,.26.05.35.15l6.71,6.71c.09.09.15.22.15.35v2.79"/>
+    <path class="cls-2" d="M19.5,22.02c0,.28-.22.5-.5.5H5c-.28,0-.5-.22-.5-.5V2.02c0-.28.22-.5.5-.5"/>
+    <path class="cls-2" d="M19.45,8.52h-6.95V1.52"/>
+  </g>
+  <g id="BASE">
+    <path class="cls-1" d="M13,13h-1c-.55,0-1,.45-1,1v3c0,.55.45,1,1,1h1c.55,0,1-.45,1-1v-3c0-.55-.45-1-1-1h0ZM12,17v-3h1v3h-1Z"/>
+    <path class="cls-1" d="M17,13h-1c-.55,0-1,.45-1,1v3c0,.55.45,1,1,1h1c.55,0,1-.45,1-1v-1h-1v1h-1v-3h1v1h1v-1c0-.55-.45-1-1-1h0Z"/>
+    <path class="cls-1" d="M9,13h-2v5h2c.55,0,1-.45,1-1v-3c0-.55-.45-1-1-1h0ZM8,17v-3h1v3h-1Z"/>
+  </g>
+</svg>

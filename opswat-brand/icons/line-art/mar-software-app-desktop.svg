@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="SOFTWARE" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #10141e;
+        stroke-miterlimit: 10;
+      }
+    </style>
+  </defs>
+  <path class="cls-1" d="M18.31,7.45v1.75H6.05v-1.75c0-.28.22-.5.5-.5h11.26c.28,0,.5.22.5.5Z"/>
+  <path class="cls-1" d="M6.05,11.45h6.71v2.5h-6.41c-.16,0-.29-.09-.29-.21v-2.29Z"/>
+  <path class="cls-1" d="M15.26,11.45h3.05v2.29c0,.11-.13.21-.28.21h-2.77v-2.5Z"/>
+  <line class="cls-1" x1="16" y1="19.45" x2="8" y2="19.45"/>
+  <line class="cls-1" x1="12" y1="16.45" x2="12" y2="19.45"/>
+  <path class="cls-1" d="M22.46,15.95c0,.28-.22.5-.5.5H1.99c-.28,0-.5-.22-.5-.5V5c0-.28.22-.5.5-.5h0"/>
+  <path class="cls-1" d="M3.5,4.5h18.46c.28,0,.5.22.5.5v9.01"/>
+</svg>

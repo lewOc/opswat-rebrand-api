@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="PROCESS" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <defs>
+    <style>
+      .cls-1 {
+        stroke-width: .94px;
+      }
+
+      .cls-1, .cls-2 {
+        fill: none;
+        stroke: #10141e;
+        stroke-linejoin: round;
+      }
+    </style>
+  </defs>
+  <circle class="cls-2" cx="12" cy="12" r="7.5"/>
+  <circle class="cls-2" cx="12" cy="12" r="4.5"/>
+  <line class="cls-1" x1="12" y1="2" x2="12" y2="10"/>
+  <line class="cls-1" x1="2" y1="12" x2="10" y2="12"/>
+  <line class="cls-1" x1="12" y1="22" x2="12" y2="14"/>
+  <line class="cls-1" x1="22" y1="12" x2="14" y2="12"/>
+</svg>

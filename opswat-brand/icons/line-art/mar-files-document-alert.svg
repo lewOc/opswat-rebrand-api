@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="FILES" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <defs>
+    <style>
+      .cls-1 {
+        stroke-linejoin: bevel;
+      }
+
+      .cls-1, .cls-2 {
+        fill: none;
+        stroke: #10141e;
+      }
+
+      .cls-2 {
+        stroke-miterlimit: 10;
+      }
+    </style>
+  </defs>
+  <path class="cls-2" d="M17.5,6v-3.98c0-.28-.22-.5-.5-.5h-7.29c-.13,0-.26.05-.35.15l-6.71,6.71c-.09.09-.15.22-.15.35v13.29c0,.28.22.5.5.5h14c.28,0,.5-.22.5-.5v-1.02"/>
+  <path class="cls-2" d="M2.55,8.52h6.95V1.57"/>
+  <path class="cls-2" d="M17.07,8.75l-4.5,8.99c-.19.33.05.75.43.75h9c.38,0,.63-.42.43-.75l-4.5-8.99c-.19-.33-.67-.33-.87,0l-4.5,8.99c-.19.33.05.75.43.75h9c.38,0,.63-.42.43-.75l-4.5-8.99c-.19-.33-.67-.33-.87,0h.02Z"/>
+  <line class="cls-1" x1="17.5" y1="14.5" x2="17.5" y2="12"/>
+  <circle class="cls-1" cx="17.5" cy="16.25" r=".25"/>
+</svg>

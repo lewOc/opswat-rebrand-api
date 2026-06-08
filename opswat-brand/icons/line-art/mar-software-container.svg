@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="SOFTWARE" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #10141e;
+        stroke-miterlimit: 10;
+      }
+    </style>
+  </defs>
+  <polygon class="cls-1" points="16.48 9.37 16.48 4.12 11.99 1.5 7.5 4.12 7.5 9.37 11.99 12 16.48 9.37"/>
+  <polygon class="cls-1" points="22.5 19.87 22.5 14.62 18 12 13.5 14.62 13.5 19.87 18 22.5 22.5 19.87"/>
+  <polyline class="cls-1" points="16.5 4.12 12.01 6.75 7.52 4.12"/>
+  <polyline class="cls-1" points="22.5 14.64 18 17.27 13.5 14.64"/>
+  <polygon class="cls-1" points="10.5 19.87 10.5 14.62 6 12 1.5 14.62 1.5 19.87 6 22.5 10.5 19.87"/>
+  <polyline class="cls-1" points="10.5 14.64 6 17.27 1.5 14.64"/>
+</svg>

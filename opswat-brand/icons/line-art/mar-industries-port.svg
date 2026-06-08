@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="INDUSTRIES" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #10141e;
+        stroke-miterlimit: 10;
+      }
+    </style>
+  </defs>
+  <circle class="cls-1" cx="12" cy="5" r="3.5"/>
+  <path class="cls-1" d="M8,11.5h8"/>
+  <line class="cls-1" x1="12" y1="8.5" x2="12" y2="23"/>
+  <path class="cls-1" d="M18,13.5h2.5c-.29,4.43-3.99,8-8.5,8-4.51,0-8.21-3.57-8.5-8h2.5"/>
+</svg>

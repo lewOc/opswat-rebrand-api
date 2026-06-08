@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="INDUSTRIES" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #10141e;
+        stroke-miterlimit: 10;
+      }
+    </style>
+  </defs>
+  <path class="cls-1" d="M12.03,22.52H1c-.31,0-.55-.29-.49-.59l1.99-10.41v-5.5c0-.28.22-.5.5-.5h3.99"/>
+  <path class="cls-1" d="M22.65,18.99l.83,2.9c.09.32-.15.64-.48.64H6.47l3.03-11V2.02c0-.28.22-.5.5-.5h10.01c.28,0,.5.22.5.5v9.5l1.55,5.41"/>
+  <line class="cls-1" x1="1" y1="19.52" x2="22.8" y2="19.52"/>
+</svg>

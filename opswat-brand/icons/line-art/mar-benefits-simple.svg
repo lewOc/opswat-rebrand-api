@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="BENEFITS" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #10141e;
+        stroke-miterlimit: 10;
+      }
+    </style>
+  </defs>
+  <path class="cls-1" d="M10.5,13.5H2.5v8h8v-8Z"/>
+  <path class="cls-1" d="M22,17.25c0-2.35-1.9-4.25-4.25-4.25s-4.25,1.9-4.25,4.25,1.9,4.25,4.25,4.25,4.25-1.9,4.25-4.25Z"/>
+  <path class="cls-1" d="M12,2.5l-4.45,7.71h8.91l-4.45-7.71Z"/>
+</svg>

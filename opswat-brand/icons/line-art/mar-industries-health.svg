@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="INDUSTRIES" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #10141e;
+        stroke-miterlimit: 10;
+      }
+    </style>
+  </defs>
+  <rect class="cls-1" x="9.5" y="16.52" width="5" height="5"/>
+  <path class="cls-1" d="M15.5,4.52h2.5c.28,0,.5.22.5.5v16.5H5.5V5.02c0-.28.22-.5.5-.5h2.5"/>
+  <path class="cls-1" d="M22.5,21.02c0,.28-.22.5-.5.5H2c-.28,0-.5-.22-.5-.5v-12c0-.28.22-.5.5-.5h1.04"/>
+  <path class="cls-1" d="M18.5,8.52h3.5c.28,0,.5.22.5.5v10"/>
+  <rect class="cls-1" x="8.5" y="2.52" width="7" height="7" rx=".5" ry=".5"/>
+  <line class="cls-1" x1="14" y1="6.02" x2="10" y2="6.02"/>
+  <line class="cls-1" x1="12" y1="4.02" x2="12" y2="8.02"/>
+  <line class="cls-1" x1="8.5" y1="12.02" x2="8.5" y2="14.02"/>
+  <line class="cls-1" x1="15.5" y1="12.02" x2="15.5" y2="14.02"/>
+  <line class="cls-1" x1="12" y1="12.02" x2="12" y2="14.02"/>
+</svg>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="DEVICES" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #10141e;
+        stroke-miterlimit: 10;
+      }
+    </style>
+  </defs>
+  <line class="cls-1" x1="17" y1="20.5" x2="7" y2="20.5"/>
+  <line class="cls-1" x1="14.5" y1="17.5" x2="14.5" y2="20.5"/>
+  <line class="cls-1" x1="9.5" y1="17.5" x2="9.5" y2="20.5"/>
+  <path class="cls-1" d="M12,4.5h10c.28,0,.5.22.5.5v12c0,.28-.22.5-.5.5H2c-.28,0-.5-.22-.5-.5V5c0-.28.22-.5.5-.5h2.5"/>
+  <line class="cls-1" x1="20" y1="15.5" x2="18" y2="15.5"/>
+  <line class="cls-1" x1="16" y1="15.5" x2="14" y2="15.5"/>
+  <line class="cls-1" x1="10" y1="15.5" x2="8" y2="15.5"/>
+  <line class="cls-1" x1="6" y1="15.5" x2="4" y2="15.5"/>
+  <path class="cls-1" d="M4.5,12v-7.5l4.28-2.14c.33-.17.72.08.72.45v9.19"/>
+  <polyline class="cls-1" points="9.5 12 9.5 10.52 14.5 7 14.5 12"/>
+  <polyline class="cls-1" points="14.5 10.77 19.5 7 19.5 12"/>
+</svg>

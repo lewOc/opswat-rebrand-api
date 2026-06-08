@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="SOFTWARE" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <defs>
+    <style>
+      .cls-1 {
+        stroke-linejoin: bevel;
+      }
+
+      .cls-1, .cls-2 {
+        fill: none;
+        stroke: #10141e;
+      }
+
+      .cls-2 {
+        stroke-miterlimit: 10;
+      }
+    </style>
+  </defs>
+  <line class="cls-2" x1="13.71" y1="1.5" x2="10.29" y2="10.26"/>
+  <path class="cls-1" d="M8.53,3.64l-2.98,1.72c-.4.23-.4.82,0,1.05l2.98,1.72"/>
+  <path class="cls-1" d="M15.47,3.64l2.98,1.72c.4.23.4.82,0,1.05l-2.98,1.72"/>
+  <line class="cls-1" x1="7.5" y1="12.5" x2="21" y2="12.5"/>
+  <line class="cls-1" x1="7.5" y1="17" x2="21" y2="17"/>
+  <line class="cls-1" x1="7.5" y1="21.5" x2="21" y2="21.5"/>
+  <line class="cls-1" x1="3" y1="12.52" x2="5.25" y2="12.52"/>
+  <line class="cls-1" x1="3" y1="17.01" x2="5.25" y2="17.01"/>
+  <line class="cls-1" x1="3" y1="21.5" x2="5.25" y2="21.5"/>
+</svg>

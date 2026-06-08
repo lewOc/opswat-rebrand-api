@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="THREATS" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <defs>
+    <style>
+      .cls-1 {
+        stroke-miterlimit: 10;
+      }
+
+      .cls-1, .cls-2 {
+        fill: none;
+        stroke: #10141e;
+      }
+
+      .cls-2 {
+        stroke-miterlimit: 1;
+      }
+    </style>
+  </defs>
+  <path class="cls-2" d="M2.5,6.02v-3c0-.28.22-.5.5-.5h3"/>
+  <path class="cls-2" d="M21.5,6.02v-3c0-.28-.22-.5-.5-.5h-3"/>
+  <path class="cls-2" d="M2.5,18.02v3c0,.28.22.5.5.5h8.5c.28,0,.5-.22.5-.5v-11"/>
+  <polyline class="cls-1" points="9.5 12.5 12 10 14.5 12.5"/>
+  <polyline class="cls-1" points="7.5 19.02 7.5 7.52 16.5 7.52 16.5 19.02"/>
+  <line class="cls-2" x1="9" y1="2.52" x2="15" y2="2.52"/>
+  <line class="cls-2" x1="2.5" y1="9" x2="2.5" y2="15.02"/>
+  <line class="cls-2" x1="21.5" y1="9" x2="21.5" y2="15.02"/>
+  <line class="cls-2" x1="21.5" y1="18" x2="21.5" y2="22.02"/>
+</svg>

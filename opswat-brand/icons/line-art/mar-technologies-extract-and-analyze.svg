@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="TECHNOLOGIES" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #10141e;
+        stroke-miterlimit: 10;
+      }
+    </style>
+  </defs>
+  <path class="cls-1" d="M3.56,7.5l-1.38,1.11c-.37.3-.16.89.31.89h19c.47,0,.68-.59.31-.89l-1.38-1.11"/>
+  <path class="cls-1" d="M3.58,18.5l-2,3.24c-.21.33.03.76.43.76h20c.39,0,.63-.43.43-.76l-2-3.24"/>
+  <path class="cls-1" d="M18.5,9.5v-2.79c0-.13-.05-.26-.15-.35l-3.71-3.71c-.09-.09-.22-.15-.35-.15H6c-.28,0-.5.22-.5.5v6.5"/>
+  <path class="cls-1" d="M5.5,12v7c0,.28.22.5.5.5h12c.28,0,.5-.22.5-.5v-7"/>
+  <line class="cls-1" x1="9" y1="11.52" x2="11" y2="11.52"/>
+  <line class="cls-1" x1="11" y1="13.52" x2="13" y2="13.52"/>
+  <line class="cls-1" x1="9" y1="15.52" x2="11" y2="15.52"/>
+  <line class="cls-1" x1="11" y1="17.52" x2="13" y2="17.52"/>
+</svg>

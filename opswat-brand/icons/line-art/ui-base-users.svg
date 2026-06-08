@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="BASE" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: none;
+      }
+
+      .cls-2 {
+        stroke: #10141e;
+        stroke-miterlimit: 10;
+      }
+    </style>
+  </defs>
+  <path class="cls-2" d="M20.5,19.94v-1.94c0-4.5-1.77-6.62-5-8,1.75-.72,3-2.09,3-4,0-2.49-2.01-4.5-4.5-4.5"/>
+  <path class="cls-2" d="M7,22.5h13c.26,0,.47-.19.5-.44,0,0,0-.03,0-.06"/>
+  <circle class="cls-2" cx="10" cy="6" r="4.5"/>
+  <path class="cls-2" d="M17.5,22v.5s-1.51,0-1.51,0H3c-.28,0-.5-.22-.5-.5v-4c0-4.14,3.36-7.5,7.5-7.5h0c4.14,0,7.5,3.36,7.5,7.5v1.94"/>
+  <rect class="cls-1" y="0" width="24" height="24"/>
+</svg>

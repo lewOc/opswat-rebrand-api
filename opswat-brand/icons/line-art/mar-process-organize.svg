@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="PROCESS" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #10141e;
+        stroke-miterlimit: 10;
+      }
+    </style>
+  </defs>
+  <rect class="cls-1" x="9.5" y="2.5" width="5" height="5" rx="2.5" ry="2.5"/>
+  <rect class="cls-1" x="9.5" y="15.5" width="5" height="5" rx="2.5" ry="2.5"/>
+  <rect class="cls-1" x="17.5" y="15.5" width="5" height="5" rx="2.5" ry="2.5"/>
+  <rect class="cls-1" x="1.5" y="15.5" width="5" height="5" rx="2.5" ry="2.5"/>
+  <polyline class="cls-1" points="20 15.5 20 12.01 4 12.01 4 15.5"/>
+  <line class="cls-1" x1="12" y1="7.5" x2="12" y2="15.5"/>
+</svg>

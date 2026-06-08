@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="TECHNOLOGIES" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #10141e;
+        stroke-miterlimit: 10;
+      }
+    </style>
+  </defs>
+  <path class="cls-1" d="M13.5,10c0,1.5-1.5,1.5-1.5,1.5"/>
+  <path class="cls-1" d="M10.5,10c0,1.5,1.5,1.5,1.5,1.5"/>
+  <ellipse class="cls-1" cx="12" cy="14.5" rx="2.5" ry="3"/>
+  <path class="cls-1" d="M4.99,3.5h16.01c.28,0,.5.22.5.5v3c0,.28-.22.5-.5.5H3c-.28,0-.5-.22-.5-.5v-3c0-.28.22-.5.5-.5"/>
+  <path class="cls-1" d="M17.96,20.5H4c-.28,0-.5-.22-.5-.5V7.5h17v12.5c0,.28-.22.5-.5.5"/>
+</svg>

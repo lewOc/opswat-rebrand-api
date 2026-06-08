@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="DEVICES" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <defs>
+    <style>
+      .cls-1 {
+        stroke-linejoin: round;
+      }
+
+      .cls-1, .cls-2 {
+        fill: none;
+        stroke: #10141e;
+      }
+
+      .cls-2 {
+        stroke-miterlimit: 10;
+      }
+    </style>
+  </defs>
+  <circle class="cls-2" cx="12.61" cy="12.61" r="2.12"/>
+  <path class="cls-1" d="M2.66,14.25l8.46-3.14,3.14-8.46c.42-1.14,2.13-.68,1.92.52l-1.51,8.89,5.76,6.95c.77.93-.47,2.18-1.41,1.41l-6.95-5.76-8.89,1.51c-1.2.2-1.65-1.5-.52-1.92Z"/>
+  <path class="cls-2" d="M14.7,20.29c-.66.18-1.36.28-2.09.28-3.26,0-6.05-1.96-7.28-4.76"/>
+  <path class="cls-2" d="M18.22,6.97c1.45,1.44,2.35,3.44,2.35,5.64,0,1.76-.57,3.39-1.54,4.71"/>
+  <path class="cls-2" d="M4.92,10.58c.9-3.41,4-5.92,7.69-5.92.3,0,.59.02.88.05"/>
+</svg>

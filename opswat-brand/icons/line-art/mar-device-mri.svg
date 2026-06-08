@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="DEVICES" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <defs>
+    <style>
+      .cls-1 {
+        stroke-linejoin: bevel;
+      }
+
+      .cls-1, .cls-2, .cls-3 {
+        fill: none;
+        stroke: #10141e;
+      }
+
+      .cls-2 {
+        stroke-linejoin: round;
+      }
+
+      .cls-3 {
+        stroke-miterlimit: 10;
+      }
+    </style>
+  </defs>
+  <line class="cls-3" x1="8" y1="17.5" x2="16" y2="17.5"/>
+  <line class="cls-3" x1="12" y1="21.5" x2="12" y2="17.5"/>
+  <circle class="cls-1" cx="12" cy="9.5" r="5"/>
+  <path class="cls-2" d="M19,21.5H3c-.28,0-.5-.22-.5-.5v-9.5C2.5,5.98,7.04,1.5,12.19,1.5s9.31,4.48,9.31,10v9.5c0,.28-.22.5-.5.5"/>
+  <circle class="cls-1" cx="12" cy="9" r="2.5"/>
+</svg>

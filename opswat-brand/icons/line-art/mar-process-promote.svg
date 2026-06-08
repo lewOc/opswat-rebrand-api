@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="PROCESS" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #10141e;
+        stroke-linejoin: round;
+      }
+    </style>
+  </defs>
+  <path class="cls-1" d="M4.98,7.5h5.02c.28,0,.5.22.5.5v6c0,.28-.22.5-.5.5H3c-.28,0-.5-.22-.5-.5v-6c0-.28.22-.5.5-.5"/>
+  <path class="cls-1" d="M17.19,17.85l-6.69-3.35v-7l8.28-4.14c.33-.17.72.08.72.45v14.38c0,.29-.24.5-.5.5"/>
+  <path class="cls-1" d="M21,8.4c.9.52,1.5,1.49,1.5,2.6s-.6,2.08-1.5,2.6"/>
+  <rect class="cls-1" x="5.5" y="14.5" width="3" height="5" rx=".5" ry=".5"/>
+</svg>

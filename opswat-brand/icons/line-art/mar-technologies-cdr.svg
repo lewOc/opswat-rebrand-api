@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="TECHNOLOGIES" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #10141e;
+        stroke-miterlimit: 10;
+      }
+    </style>
+  </defs>
+  <path class="cls-1" d="M8,21.5H2c-.28,0-.5-.22-.5-.5V3c0-.28.22-.5.5-.5h6"/>
+  <path class="cls-1" d="M14,2.5h3.29c.13,0,.26.05.35.15l4.71,4.71c.09.09.15.22.15.35v13.29c0,.28-.22.5-.5.5h-8"/>
+  <path class="cls-1" d="M22,7.5h-4.5V3"/>
+  <line class="cls-1" x1="10" y1="8" x2="11" y2="8"/>
+  <line class="cls-1" x1="10" y1="4" x2="11" y2="4"/>
+  <line class="cls-1" x1="13" y1="10" x2="14" y2="10"/>
+  <line class="cls-1" x1="13" y1="6" x2="14" y2="6"/>
+  <line class="cls-1" x1="13" y1="14" x2="14" y2="14"/>
+  <line class="cls-1" x1="13" y1="18" x2="14" y2="18"/>
+  <line class="cls-1" x1="10" y1="12" x2="11" y2="12"/>
+  <line class="cls-1" x1="10" y1="16" x2="11" y2="16"/>
+  <line class="cls-1" x1="10" y1="20" x2="11" y2="20"/>
+  <line class="cls-1" x1="4" y1="12" x2="8" y2="12"/>
+  <line class="cls-1" x1="4" y1="7.5" x2="8" y2="7.5"/>
+  <line class="cls-1" x1="4" y1="16.5" x2="8" y2="16.5"/>
+  <line class="cls-1" x1="16" y1="12" x2="20" y2="12"/>
+  <line class="cls-1" x1="16" y1="16.5" x2="20" y2="16.5"/>
+</svg>

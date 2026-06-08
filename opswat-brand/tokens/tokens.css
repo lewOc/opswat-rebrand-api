@@ -1,0 +1,24 @@
+/* OPSWAT brand tokens — generated from Brand Corporate asset pack */
+@font-face{font-family:'Simplon Norm';font-weight:300;src:url('../fonts/SimplonNorm-Light.otf');}
+@font-face{font-family:'Simplon Norm';font-weight:400;src:url('../fonts/SimplonNorm-Regular.otf');}
+@font-face{font-family:'Simplon Norm';font-weight:500;src:url('../fonts/SimplonNorm-Medium.otf');}
+@font-face{font-family:'Simplon Norm';font-weight:700;src:url('../fonts/SimplonNorm-Bold.otf');}
+:root{
+  --opswat-blue: #2571FB;
+  --opswat-blue-logo: #2672FB;
+  --opswat-navy: #0D2553;
+  --opswat-navy-logo: #07244A;
+  --opswat-midnight: #040121;
+  --opswat-text-dark: #050E22;
+  --opswat-slate: #6D7C98;
+  --opswat-white: #FFFFFF;
+  --opswat-cyan: #03E7F5;
+  --opswat-green: #00FFB2;
+  --opswat-red: #FF003C;
+  --opswat-yellow: #FFD600;
+  --opswat-orange: #FF6B00;
+  --opswat-link: #2672FB;
+  --opswat-link-visited: #C64CFF;
+  --opswat-font-sans: 'Simplon Norm', Arial, Helvetica, sans-serif;
+  --opswat-font-mono: 'Simplon Mono Light', Consolas, monospace;
+}

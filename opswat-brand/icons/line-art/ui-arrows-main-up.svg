@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="ARROWS" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #10141e;
+        stroke-miterlimit: 10;
+      }
+    </style>
+  </defs>
+  <line class="cls-1" x1="12" y1="2.5" x2="12" y2="22"/>
+  <path class="cls-1" d="M4.5,8.5l7.18-5.88c.18-.15.45-.15.63,0l7.18,5.88"/>
+</svg>

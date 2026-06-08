@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="SOFTWARE" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #10141e;
+        stroke-miterlimit: 10;
+      }
+    </style>
+  </defs>
+  <rect class="cls-1" x="2.5" y="3.5" width="19" height="17" rx="4.11" ry="4.11"/>
+  <rect class="cls-1" x="6.5" y="8" width="4" height="8" rx=".5" ry=".5"/>
+  <path class="cls-1" d="M17.5,7.5h0c0,.28-.22.5-.5.5h-3c-.28,0-.5.22-.5.5v3c0,.28.22.5.5.5h3c.28,0,.5.22.5.5v3c0,.28-.22.5-.5.5h-3c-.28,0-.5.22-.5.5h0"/>
+</svg>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="MEDIA" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #10141e;
+        stroke-miterlimit: 10;
+      }
+    </style>
+  </defs>
+  <line class="cls-1" x1="22.75" y1="9.25" x2="17.25" y2="14.75"/>
+  <line class="cls-1" x1="17.25" y1="9.25" x2="22.75" y2="14.75"/>
+  <path class="cls-1" d="M14.5,18.98V3c0-.43-.5-.66-.82-.38l-6.93,5.88h-1.76"/>
+  <path class="cls-1" d="M3,8.5c-.28,0-.5.22-.5.5v6c0,.28.22.5.5.5h3.75l6.93,5.88c.21.18.48.15.66,0,.01-.01.02-.02.04-.04"/>
+</svg>

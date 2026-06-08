@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="TECHNOLOGIES" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <defs>
+    <style>
+      .cls-1 {
+        stroke-linejoin: bevel;
+      }
+
+      .cls-1, .cls-2 {
+        fill: none;
+        stroke: #10141e;
+      }
+
+      .cls-2 {
+        stroke-miterlimit: 10;
+      }
+    </style>
+  </defs>
+  <path class="cls-2" d="M2.5,3c0-.25.22-.5.5-.5h14c.28,0,.5.2.5.45v7.05"/>
+  <path class="cls-2" d="M17.47,19.5l.02,1.49c0,.28-.22.51-.5.51H3c-.28,0-.5-.25-.5-.5V5"/>
+  <line class="cls-2" x1="5" y1="9.5" x2="15" y2="9.5"/>
+  <line class="cls-2" x1="5" y1="5.5" x2="15" y2="5.5"/>
+  <line class="cls-2" x1="5" y1="13.5" x2="9.5" y2="13.5"/>
+  <line class="cls-2" x1="5" y1="17.5" x2="9.5" y2="17.5"/>
+  <rect class="cls-2" x="9.5" y="12.5" width="12" height="7" rx=".5" ry=".5"/>
+  <line class="cls-2" x1="16.32" y1="13.7" x2="14.73" y2="18.32"/>
+  <path class="cls-1" d="M13.58,14.82l-1.37.83c-.25.15-.25.52,0,.67l1.37.83"/>
+  <path class="cls-1" d="M17.42,14.82l1.37.83c.25.15.25.52,0,.67l-1.37.83"/>
+</svg>

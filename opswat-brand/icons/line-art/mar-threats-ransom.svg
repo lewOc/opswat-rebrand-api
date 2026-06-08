@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="THREATS" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #10141e;
+        stroke-miterlimit: 10;
+      }
+    </style>
+  </defs>
+  <path class="cls-1" d="M1.5,11.52v-2c0-1.1.9-2,2-2h0c1.1,0,2,.9,2,2v2"/>
+  <path class="cls-1" d="M6,16.5H1c-.28,0-.5-.22-.5-.5v-4.48h6v4.48c0,.28-.22.5-.5.5Z"/>
+  <g>
+    <g>
+      <path class="cls-1" d="M20.5,11.52c1.1,0,2,.9,2,2s-.9,2-2,2-2-.9-2-2"/>
+      <path class="cls-1" d="M20.5,11.52c-1.1,0-2-.9-2-2s.9-2,2-2,2,.9,2,2"/>
+    </g>
+    <line class="cls-1" x1="20.5" y1="15.52" x2="20.5" y2="17.02"/>
+    <line class="cls-1" x1="20.5" y1="6.02" x2="20.5" y2="7.52"/>
+  </g>
+  <path class="cls-1" d="M15,18.52h3c.28,0,.5.22.5.5v3"/>
+  <path class="cls-1" d="M9,5.52h-3c-.28,0-.5-.22-.5-.5v-3"/>
+  <g>
+    <path class="cls-1" d="M18.72,5.28c-1.72-1.72-4.09-2.78-6.72-2.78s-4.78.97-6.48,2.55"/>
+    <path class="cls-1" d="M5.28,18.72c1.72,1.72,4.09,2.78,6.72,2.78s4.76-.96,6.46-2.53"/>
+  </g>
+</svg>

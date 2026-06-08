@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="DEVICES" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #10141e;
+        stroke-miterlimit: 10;
+      }
+    </style>
+  </defs>
+  <path class="cls-1" d="M19,21.5H3c-.28,0-.5-.22-.5-.5V3c0-.28.22-.5.5-.5"/>
+  <path class="cls-1" d="M5,2.5h16c.28,0,.5.22.5.5v18c0,.28-.22.5-.5.5"/>
+  <path class="cls-1" d="M5.5,10c-.28,0-.5-.22-.5-.5v-4c0-.28.22-.5.5-.5h13c.28,0,.5.22.5.5v4c0,.28-.22.5-.5.5"/>
+  <line class="cls-1" x1="8.5" y1="9" x2="6.5" y2="9"/>
+  <line class="cls-1" x1="11.5" y1="9" x2="9.5" y2="9"/>
+  <line class="cls-1" x1="14.5" y1="9" x2="12.5" y2="9"/>
+  <line class="cls-1" x1="17.5" y1="9" x2="15.5" y2="9"/>
+  <path class="cls-1" d="M5.5,18c-.28,0-.5-.22-.5-.5v-4c0-.28.22-.5.5-.5h13c.28,0,.5.22.5.5v4c0,.28-.22.5-.5.5"/>
+  <line class="cls-1" x1="8.5" y1="17" x2="6.5" y2="17"/>
+  <line class="cls-1" x1="11.5" y1="17" x2="9.5" y2="17"/>
+  <line class="cls-1" x1="14.5" y1="17" x2="12.5" y2="17"/>
+  <line class="cls-1" x1="17.5" y1="17" x2="15.5" y2="17"/>
+</svg>

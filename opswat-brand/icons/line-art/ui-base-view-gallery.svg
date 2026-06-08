@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="BASE" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #10141e;
+        stroke-miterlimit: 10;
+      }
+    </style>
+  </defs>
+  <path class="cls-1" d="M3,2.5h7.5v8H2.5V3c0-.28.22-.5.5-.5Z"/>
+  <path class="cls-1" d="M13.5,2.5h7.5c.28,0,.5.22.5.5v7.5h-8V2.5h0Z"/>
+  <path class="cls-1" d="M2.5,13.5h8v8H3c-.28,0-.5-.22-.5-.5v-7.5h0Z"/>
+  <path class="cls-1" d="M13.5,13.5h8v7.5c0,.28-.22.5-.5.5h-7.5v-8h0Z"/>
+</svg>

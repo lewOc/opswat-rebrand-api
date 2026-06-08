@@ -1,0 +1,82 @@
+/* ============================================================================
+   OPSWAT Theme — drop-in CSS variables for rebranding a web app to OPSWAT.
+   Source of truth: opswat-ui design system (product/app UI).
+   Logos: real SVGs in ../opswat-brand/logos/ (the corporate hub).
+   ----------------------------------------------------------------------------
+   Usage: import this file once at app root, then map the app's existing
+   colors/fonts onto these variables (or use the Tailwind preset instead).
+   ============================================================================ */
+
+/* Product UI uses Inter. For corporate-marketing fidelity instead, comment the
+   line below and use ../opswat-brand/fonts/ (Simplon Norm) via opswat-fonts.css. */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+:root {
+  /* Primary */
+  --opswat-primary: #1d6bfc;
+  --opswat-primary-hover: #154fba;
+  --opswat-primary-light: #eff4ff;
+  --opswat-primary-subtle: #e1e9fe;
+
+  /* Neutrals */
+  --opswat-white: #ffffff;
+  --opswat-n-100: #f4f4f5;
+  --opswat-n-200: #e9eaeb;
+  --opswat-n-300: #d2d4d6;
+  --opswat-n-400: #bcbfc3;
+  --opswat-n-500: #a4a8ae;
+  --opswat-n-700: #707682;
+  --opswat-n-800: #616875;
+  --opswat-n-900: #485161;
+  --opswat-n-1100: #1b273c;
+  --opswat-n-1300: #080f21;
+
+  /* Semantic / status */
+  --opswat-success: #008a00;  --opswat-success-bg: #edf7ed;
+  --opswat-warning: #ed6706;  --opswat-warning-bg: #fef4ed;
+  --opswat-error:   #d00300;  --opswat-error-bg:   #fceded;
+  --opswat-info:    #1d6bfc;  --opswat-info-bg:    #eff4ff;
+
+  /* Dark / nav */
+  --opswat-dark-100: #273454;
+  --opswat-dark-200: #111f42;
+  --opswat-dark-300: #081938;
+
+  /* Chart series (in order) */
+  --opswat-chart-1: #1d6bfc; --opswat-chart-2: #008a00; --opswat-chart-3: #ed6706;
+  --opswat-chart-4: #d00300; --opswat-chart-5: #7e32dd; --opswat-chart-6: #178594;
+
+  /* Typography */
+  --opswat-font: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+
+  /* Spacing (8px grid) */
+  --opswat-space-2xs: 4px; --opswat-space-xs: 8px;  --opswat-space-sm: 16px;
+  --opswat-space-md: 24px; --opswat-space-lg: 32px; --opswat-space-xl: 40px;
+
+  /* Radius */
+  --opswat-radius-sm: 4px; --opswat-radius-md: 6px; --opswat-radius-lg: 8px;
+
+  /* Shadows */
+  --opswat-shadow-sm: 0 2px 8px rgba(27, 39, 60, 0.06);
+  --opswat-shadow-md: 0 2px 8px rgba(27, 39, 60, 0.15);
+  --opswat-focus-ring: 0 0 0 2px #7eaafd;
+}
+
+/* ---- Optional base layer: gives instant OPSWAT feel without touching markup ---- */
+.opswat-theme, .opswat-theme body {
+  font-family: var(--opswat-font);
+  color: var(--opswat-n-900);
+  background: var(--opswat-n-100);
+}
+.opswat-theme h1, .opswat-theme h2, .opswat-theme h3 { color: var(--opswat-n-1100); font-weight: 600; }
+.opswat-theme a { color: var(--opswat-primary); }
+.opswat-theme button.opswat-btn {
+  background: var(--opswat-primary); color: #fff; border: 0;
+  height: 36px; padding: 0 16px; border-radius: var(--opswat-radius-sm);
+  font: 500 14px var(--opswat-font); cursor: pointer;
+}
+.opswat-theme button.opswat-btn:hover { background: var(--opswat-primary-hover); }
+.opswat-theme .opswat-card {
+  background: #fff; border: 1px solid var(--opswat-n-200);
+  border-radius: var(--opswat-radius-md); box-shadow: var(--opswat-shadow-sm); padding: 24px;
+}

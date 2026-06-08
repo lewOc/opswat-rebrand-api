@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="PROCESS" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <defs>
+    <style>
+      .cls-1 {
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+
+      .cls-1, .cls-2 {
+        fill: none;
+        stroke: #10141e;
+      }
+
+      .cls-2 {
+        stroke-miterlimit: 10;
+      }
+    </style>
+  </defs>
+  <line class="cls-2" x1="10" y1="19.5" x2="19" y2="19.5"/>
+  <circle class="cls-2" cx="14.5" cy="13.5" r="4"/>
+  <polyline class="cls-2" points="17 12.5 14.5 13.5 14.5 17.5"/>
+  <path class="cls-1" d="M5,2.5c-1.38,0-2.5,1.12-2.5,2.5l-.03,13.99c0-1.38,1.14-2.49,2.53-2.49s2.5,1.12,2.5,2.5V5c0-1.38-1.12-2.5-2.5-2.5Z"/>
+  <path class="cls-2" d="M2.47,18.99c0,1.38,1.17,2.51,2.55,2.51h16c.28,0,.5-.22.5-.5v-13c0-.28-.22-.5-.5-.5h-11"/>
+</svg>
